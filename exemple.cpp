@@ -8,6 +8,7 @@ int main(){
     /**************************************************************************/
     /** X - Sommaire **********************************************************/
     /**************************************************************************/
+    cout << "Little modification" << endl;
     cout << "Ce programme est dédié à l'apprentissage des pointeurs." << endl;
     cout << "Pour cela, nous allons voir les notions suivantes : " << endl;
     cout << "1- les adresses des variables" << endl;
