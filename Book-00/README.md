@@ -120,3 +120,14 @@ Vous noterez qu'il y a certains éléments de syntaxe comme les étoiles qui per
 # Mais les fichiers Word c'est des fichiers texte ? 
 Et bien non ! 
 
+
+# La terminologie à comprendre : 
+
+- **Bit :** une unité d'information pouvant prendre la valeur 0 ou 1.
+- **Octet :** une suite de 8 bits. L'octet peut représenter des valeurs allant de 0 à 255.
+- **Chiffre :** l'unité d'information pouvant prendre la valeur 0, 1, 2, 3, 4, 5, 6, 7, 8 ou 9.
+- **Nombre Décimale :** est composé de plusieurs chiffres et permet de compter au delà de 9.
+- **Caractère :** l'unité d'information d'un texte. Un caractère peut être une lettre minuscule (e.g. 'a'), une lettre majuscule (e.g. 'A') ou un caractère spécial (e.g. ',').  
+- **Chaine de caractères :** est une suite de caractères, plusieurs caractères mis les uns à la suite des autres. Une chaine de caractères peut former un mot, un texte, une code etc. Exemples : "Bonjour", "BONJOUR", "BOnJouR", "Je parle tous les jours.", "if(true)", etc.
+
+
