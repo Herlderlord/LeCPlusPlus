@@ -109,7 +109,10 @@ Vous noterez qu'il y a certains éléments de syntaxe comme les étoiles qui per
 
 
 # Apprendre à écrire un fichier texte
-![Chercher un bloc note dans la barre de windows](images/search_bloc_note.png)
+
+<p align="center"><img src="images/search_bloc_note.png" alt="Chercher un bloc note dans la barre de windows" width="400"/></p>
+
+
 # Différence entre un fichier Word (ou ) et un fichier texte
 
 
