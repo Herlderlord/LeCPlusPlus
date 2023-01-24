@@ -103,14 +103,15 @@ Le contenu de ce fichier n'étant pas du texte, il nous est impossible d'interpr
 
 Le **fichier texte** est un cas particulier du fichier binaire et, comme son nom l'indique, contient une suite de caractères (a, b, c, à, 0, 7 etc ...) qui forme un texte. 
 Un programmeur écrit généralement son code dans un fichier texte. Par exemple, j'écris ce cours en markdown comme illustré ci-dessous : 
-![Exemple de code markdown ouvert sur un éditeur de texte simple](images/markdown.png)
+
+<p align="center"><img src="images/markdown.png" alt="Exemple de code markdown ouvert sur un éditeur de texte simple" width="400"/></p>
 
 Vous noterez qu'il y a certains éléments de syntaxe comme les étoiles qui permettent de mettre en gras du texte ou le point d'exclamation qui permet d'insérer une image. Vous noterez aussi que le contenu du fichier est directement du texte et qu'il est facile à lire.
 
 
 # Apprendre à écrire un fichier texte
 
-<p align="center"><img src="images/search_bloc_note.png" alt="Chercher un bloc note dans la barre de windows" width="400"/></p>
+<p align="center"><img src="images/search_bloc_note.png" alt="Chercher un bloc note dans la barre de windows" width="600"/></p>
 
 
 # Différence entre un fichier Word (ou ) et un fichier texte
