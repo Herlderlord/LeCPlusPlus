@@ -35,6 +35,7 @@ Un octet peut contenir des valeurs comprises en 0 et 255 (2<sup>8</sup>-1).
 
 # Comment représenter un texte avec des octets ?
 
+<div style="text-align: justify">
 Nous allons maintenant introduire la notion de représentation d'un texte par des octets. Cette notion est assez avancée et difficile à comprendre mais elle me paraît importe à introduire pour mieux appréhender les différents types de fichiers qu'il vous est possible de rencontrer dans un ordinateur.
 
 Le caractère est l'unité du texte. 
@@ -54,6 +55,7 @@ Ainsi, chaque octet contient un caractère (possiblement une lettre) et une suit
 - O = 79 en décimale = 01001111
 - U = 85 en décimale = 01010101
 - R = 82 en décimale = 01010010
+</div>
 
 Ci-dessous, un apperçu de la table ASCII en question : 
 
