@@ -114,12 +114,19 @@ Vous noterez qu'il y a certains éléments de syntaxe comme les étoiles qui per
 <p align="center"><img src="images/search_bloc_note.png" alt="Chercher un bloc note dans la barre de windows" width="600"/></p>
 
 
-# Différence entre un fichier Word (ou ) et un fichier texte
-
-
 # Mais les fichiers Word c'est des fichiers texte ? 
-Et bien non ! 
+Et bien non ! Si j'en parle ici, c'est parce que j'ai déjà vu des étudiants essayer de coder depuis "Word". Cela en fera rire certains. Pour ma part, je trouve ça intéressant. Le principe de fichier texte n'est pas forcément évident à appréhender la première fois et non, Word n'enregistre pas vos fichiers ua format texte. 
 
+En effet, les fichiers Word sont des fichiers binaires qui sont interprétés par le logiciel de manière à rendre compréhensibles pour l'oeil humain. Cependant, la matière première, le fichier sauvegardé, est un bien un fichier binaire. Ne vous y trompez pas. 
+
+Ci-dessous, vous trouverez un exemple de fichier au format docx, le format word. Ce fichier est disponible dans le sous-dossier "files" de ce répertoire. La partie supérieure de l'image montre le contenu textuel du fichier tandis que l'image inférieure montre le fichier tel que LibreOffice Writer le montre.
+
+
+
+<p align="center"><img src="images/word_file_opened_as_text.png" alt="Exemple d'affichage textuel d'un fichier word. L'image au-dessous affiche le contenu de cet affichage, l'image en-dessous montre l'affichage de ce fichier par le logiciel LibreOffice Writer." width="600"/></p>
+
+
+# La différence entre un logiciel de traitement de texte et un éditeur de texte
 
 # La terminologie à comprendre : 
 
