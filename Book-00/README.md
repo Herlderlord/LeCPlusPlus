@@ -81,6 +81,7 @@ Ainsi, nous dissocions deux types de fichiers : les fichiers binaires qui n'ont 
 
 
 # Les fichiers binaires et texte
+<div style="text-align: justify">
 Nous pouvons discerner deux types de fichiers sur les ordinateurs. 
 Les fichiers texte et les fichiers binaires.
 
@@ -88,8 +89,9 @@ Les fichiers texte et les fichiers binaires.
 Le **fichier binaire** contient un ensemble d'octets dans lesquels des valeurs sont stockées. 
 Le fichier tel quel ne peut être lu par un humain. 
 Un programme peut cependant lire un fichier binaire pour charger la carte d'un jeu vidéo par exemple. L'image ci-dessous vous montre le contenu d'un fichier son affiché sous la forme d'un texte : 
+</div>
 
-<center><img src="images/wav_file_opened_as_text.png" alt="Affichage sous la forme textuelle d'un fichier audio" width="400"/></center>
+<p align="center"><img src="images/wav_file_opened_as_text.png" alt="Affichage sous la forme textuelle d'un fichier audio" width="400"/></p>
 
 Le contenu de ce fichier n'étant pas du texte, il nous est impossible d'interpréter son contenu à partir de son affichage textuel.
 
