@@ -80,7 +80,7 @@ Ainsi, nous dissocions deux types de fichiers : les fichiers binaires qui n'ont 
 
 
 
-# Les différents types de fichiers
+# Les fichiers binaires et texte
 Nous pouvons discerner deux types de fichiers sur les ordinateurs. 
 Les fichiers texte et les fichiers binaires.
 
