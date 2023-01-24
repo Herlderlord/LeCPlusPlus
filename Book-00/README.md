@@ -129,5 +129,7 @@ Et bien non !
 - **Nombre Décimale :** est composé de plusieurs chiffres et permet de compter au delà de 9.
 - **Caractère :** l'unité d'information d'un texte. Un caractère peut être une lettre minuscule (e.g. 'a'), une lettre majuscule (e.g. 'A') ou un caractère spécial (e.g. ',').  
 - **Chaine de caractères :** est une suite de caractères, plusieurs caractères mis les uns à la suite des autres. Une chaine de caractères peut former un mot, un texte, une code etc. Exemples : "Bonjour", "BONJOUR", "BOnJouR", "Je parle tous les jours.", "if(true)", etc.
+- **Fichier binaire :** est composé d'un ensemble d'octets qui n'ont pas nécessairement pour objectif d'être lus par des humains. Les programmes peuvent cependant s'en servir. Exemples : carte d'un jeu vidéo, un fichier word ou un enregistrement audio.
+- **Fichier texte :** est un cas particulier du fichier et a pour vocation a être lu par un humain.
 
 
