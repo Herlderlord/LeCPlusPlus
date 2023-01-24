@@ -89,7 +89,7 @@ Le **fichier binaire** contient un ensemble d'octets dans lesquels des valeurs s
 Le fichier tel quel ne peut être lu par un humain. 
 Un programme peut cependant lire un fichier binaire pour charger la carte d'un jeu vidéo par exemple. L'image ci-dessous vous montre le contenu d'un fichier son affiché sous la forme d'un texte : 
 
-![Affichage sous la forme textuelle d'un fichier audio](images/wav_file_opened_as_text.png)
+<center><img src="images/wav_file_opened_as_text.png" alt="Affichage sous la forme textuelle d'un fichier audio" width="400"/></center>
 
 Le contenu de ce fichier n'étant pas du texte, il nous est impossible d'interpréter son contenu à partir de son affichage textuel.
 
