@@ -117,11 +117,16 @@ Vous noterez qu'il y a certains éléments de syntaxe comme les étoiles qui per
 # Mais les fichiers Word c'est des fichiers texte ? 
 <p align="justify"> 
 Et bien non ! Si j'en parle ici, c'est parce que j'ai déjà vu des étudiants essayer de coder depuis "Word". Cela en fera rire certains. Pour ma part, je trouve ça intéressant. Le principe de fichier texte n'est pas forcément évident à appréhender la première fois et non, Word n'enregistre pas vos fichiers ua format texte. 
+</p>
 
+<p align="justify"> 
 En effet, les fichiers Word sont des fichiers binaires qui sont interprétés par le logiciel de manière à rendre compréhensibles pour l'oeil humain. Cependant, la matière première, le fichier sauvegardé, est un bien un fichier binaire. Ne vous y trompez pas. 
+</p>
 
+<p align="justify"> 
 Ci-dessous, vous trouverez un exemple de fichier au format docx, le format word. Ce fichier est disponible dans le sous-dossier "files" de ce répertoire. La partie supérieure de l'image montre le contenu textuel du fichier tandis que l'image inférieure montre le fichier tel que LibreOffice Writer le montre.
 </p>
+
 
 
 
