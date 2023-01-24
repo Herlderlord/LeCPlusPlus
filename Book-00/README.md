@@ -35,7 +35,7 @@ Un octet peut contenir des valeurs comprises en 0 et 255 (2<sup>8</sup>-1).
 
 # Comment représenter un texte avec des octets ?
 
-Nous allons maintenant introduire la notion de représentation d'un texte par des octets. Cette notion est assez avancée et difficile à comprendre mais elle me paraît importe à introduire pour comprendre les différents types de fichiers qu'il vous est possible de rencontrer dans un ordinateur.
+Nous allons maintenant introduire la notion de représentation d'un texte par des octets. Cette notion est assez avancée et difficile à comprendre mais elle me paraît importe à introduire pour mieux appréhender les différents types de fichiers qu'il vous est possible de rencontrer dans un ordinateur.
 
 Le caractère est l'unité du texte. 
 Il peut être une lettre minuscule (e.g. 'a'), une lettre majuscule (e.g. 'A') ou un caractère spécial (e.g. ',').
@@ -44,7 +44,7 @@ Chaque octet a une valeur qui lui est attribuée (e.g. 01000001) et chaque valeu
 
 
 En suivant ce principe, des programmes utilisent ce que nous nommons la table ASCII. 
-A chaque nombre est associé un caractère. 
+À chaque nombre est associé un caractère. 
 Exemple,  le "A" (majuscule) est associé au nombre 65. 
 Ainsi, chaque octet contient un caractère (possiblement une lettre) et une suite de ces octets permet d'écrire un texte. Pour écrire le mot "BONJOUR", en majuscule, il vous faut donc les octets suivants : 
 - B = 66 en décimale = 01000010
@@ -70,7 +70,7 @@ Ci-dessous, un apperçu de la table ASCII en question :
 | I | 65 | 01001001 |
 | J | 65 | 01001010 |
 
-Imaginons maintenant que je vous donne le texte suivant sous forme d'octets :  01001010 00100111 01000001 01000000 01000110 01000001 01001001 01001101
+Imaginons maintenant que je vous donne un texte sous forme d'octets. Je vais vous aider, je sépare chaque octet par un espace pour rendre le texte plus lisible :  01001010 00100111 01000001 01000000 01000110 01000001 01001001 01001101
 
 Notez que nous nommons cela une chaine de caractère, nous reviendrons plus tard sur ce principe.
 
@@ -90,7 +90,7 @@ Le fichier tel quel ne peut être lu par un humain.
 Un programme peut cependant lire un fichier binaire pour charger la carte d'un jeu vidéo par exemple.
 
 
-Ces valeurs peuvent permettre de décrire une carte, la sauvegarde d'un jeu.
+Ces valeurs peuvent permettre de décrire une carte, la sauvegarde d'un jeu vidéo, un enregistrement audio, des images etc.
 Ces informations contenant certaines valeurs qui peuvent servir à différentes choses. 
 [Exemple de programme]
 [Exemple de fichier word]
