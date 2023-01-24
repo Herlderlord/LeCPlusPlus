@@ -143,18 +143,16 @@ Et bien non ! Si j'en parle ici, c'est parce que j'ai déjà vu des étudiants e
 </p>
 
 <p align="justify"> 
-En effet, les fichiers Word sont des fichiers binaires qui sont interprétés par le logiciel de manière à rendre compréhensibles pour l'oeil humain. Cependant, la matière première, le fichier sauvegardé, est un bien un fichier binaire. Ne vous y trompez pas. 
+En effet, les fichiers Word sont des fichiers binaires qui sont interprétés par le logiciel de manière à les rendre compréhensibles pour l'oeil humain. Cependant, la matière première, le fichier sauvegardé, est bien un fichier binaire. Ne vous y trompez pas. 
 </p>
 
 <p align="justify"> 
 Ci-dessous, vous trouverez un exemple de fichier au format docx, le format word. Ce fichier est disponible dans le sous-dossier "files" de ce répertoire. La partie supérieure de l'image montre le contenu textuel du fichier tandis que l'image inférieure montre le fichier tel que LibreOffice Writer le montre.
 </p>
 
-
-
-
-
 <p align="center"><img src="images/word_file_opened_as_text.png" alt="Exemple d'affichage textuel d'un fichier word. L'image au-dessous affiche le contenu de cet affichage, l'image en-dessous montre l'affichage de ce fichier par le logiciel LibreOffice Writer." width="600"/></p>
+
+<p align="justify">Vous pouvez constater que la partie supérieure n'est pas compréhensible. A contrario, vous n'avez aucun problème à lire le texte présent dans la partie inférieure. Dans le cas d'un fichier texte, vous n'auriez eu aucun problème à lire le fichier d'origine. </p>
 
 
 # La différence entre un logiciel de traitement de texte et un éditeur de texte
@@ -164,7 +162,7 @@ Ci-dessous, vous trouverez un exemple de fichier au format docx, le format word.
 - **Bit :** une unité d'information pouvant prendre la valeur 0 ou 1.
 - **Octet :** une suite de 8 bits. L'octet peut représenter des valeurs allant de 0 à 255.
 - **Chiffre :** l'unité d'information pouvant prendre la valeur 0, 1, 2, 3, 4, 5, 6, 7, 8 ou 9.
-- **Nombre Décimale :** est composé de plusieurs chiffres et permet de compter au delà de 9.
+- **Nombre Décimal :** est composé de plusieurs chiffres et permet de compter au delà de 9.
 - **Caractère :** l'unité d'information d'un texte. Un caractère peut être une lettre minuscule (e.g. 'a'), une lettre majuscule (e.g. 'A') ou un caractère spécial (e.g. ',').  
 - **Chaine de caractères :** est une suite de caractères, plusieurs caractères mis les uns à la suite des autres. Une chaine de caractères peut former un mot, un texte, une code etc. Exemples : "Bonjour", "BONJOUR", "BOnJouR", "Je parle tous les jours.", "if(true)", etc.
 - **Fichier binaire :** est composé d'un ensemble d'octets qui n'ont pas nécessairement pour objectif d'être lus par des humains. Les programmes peuvent cependant s'en servir. Exemples : carte d'un jeu vidéo, un fichier word ou un enregistrement audio.
