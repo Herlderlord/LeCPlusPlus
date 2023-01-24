@@ -90,7 +90,9 @@ Ci-dessous, un apperçu de la table ASCII en question :
 | J | 65 | 01001010 |
 
 <p align="justify"> 
-Imaginons maintenant que je vous donne un texte sous forme d'octets. Je vais vous aider, je sépare chaque octet par un espace pour rendre le texte plus lisible :  ```01001010 00100111 01000001 01000000 01000110 01000001 01001001 01001101```
+Imaginons maintenant que je vous donne un texte sous forme d'octets. Je vais vous aider, je sépare chaque octet par un espace pour rendre le texte plus lisible :  
+
+```01001010 00100111 01000001 01000000 01000110 01000001 01001001 01001101```
 
 Notez que nous nommons cela une chaine de caractère, nous reviendrons plus tard sur ce principe.
 
