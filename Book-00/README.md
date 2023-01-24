@@ -70,6 +70,7 @@ Ci-dessous, un apperçu de la table ASCII en question :
 | I | 65 | 01001001 |
 | J | 65 | 01001010 |
 
+<div style="text-align: justify">
 Imaginons maintenant que je vous donne un texte sous forme d'octets. Je vais vous aider, je sépare chaque octet par un espace pour rendre le texte plus lisible :  01001010 00100111 01000001 01000000 01000110 01000001 01001001 01001101
 
 Notez que nous nommons cela une chaine de caractère, nous reviendrons plus tard sur ce principe.
@@ -77,6 +78,7 @@ Notez que nous nommons cela une chaine de caractère, nous reviendrons plus tard
 Il ne vous est pas évident de lire le mot que je viens de vous écrire en binaire.
 Pour rendre ces chaines de caractères plus faciles à lire, les machines les affichent sous forme de texte.
 Ainsi, nous dissocions deux types de fichiers : les fichiers binaires qui n'ont pas pour objectif d'être lus par des utilisateurs (humains) et les fichiers texte.
+</div>
 
 
 
