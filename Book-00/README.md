@@ -82,34 +82,29 @@ Ainsi, nous dissocions deux types de fichiers : les fichiers binaires qui n'ont 
 
 # Les différents types de fichiers
 Nous pouvons discerner deux types de fichiers sur les ordinateurs. 
-Les fichiers texte et les fichiers binaire.
+Les fichiers texte et les fichiers binaires.
 
 
-Le fichier binaire contient un ensemble d'octets dans lesquels des valeurs sont stockées. 
+Le **fichier binaire** contient un ensemble d'octets dans lesquels des valeurs sont stockées. 
 Le fichier tel quel ne peut être lu par un humain. 
-Un programme peut cependant lire un fichier binaire pour charger la carte d'un jeu vidéo par exemple.
+Un programme peut cependant lire un fichier binaire pour charger la carte d'un jeu vidéo par exemple. L'image ci-dessous vous montre le contenu d'un fichier son affiché sous la forme d'un texte : 
 
+![Affichage sous la forme textuelle d'un fichier audio](images/wav_file_opened_as_text.png)
 
-Ces valeurs peuvent permettre de décrire une carte, la sauvegarde d'un jeu vidéo, un enregistrement audio, des images etc.
-Ces informations contenant certaines valeurs qui peuvent servir à différentes choses. 
-[Exemple de programme]
-[Exemple de fichier word]
-[Autre exemple ?]
+Le contenu de ce fichier n'étant pas du texte, il nous est impossible d'interpréter son contenu à partir de son affichage textuel.
 
+Le **fichier texte** est un cas particulier du fichier binaire et, comme son nom l'indique, contient une suite de caractères (a, b, c, à, 0, 7 etc ...) qui forme un texte. 
+Un programmeur écrit généralement son code dans un fichier texte. Par exemple, j'écris ce cours en markdown comme illustré ci-dessous : 
+![Exemple de code markdown ouvert sur un éditeur de texte simple](images/markdown.png)
 
-Le fichier texte est un cas particulier du fichier binaire et, comme son nom l'indique, contient une suite de caractères (a, b, c, à, 0, 7 etc ...) qui forme un texte. 
-Un programmeur écrit généralement son code dans un fichier texte.
-[Exemple de fichier texte de bloc note]
-[Exemple de fichier texte de programme C++]
-[Exemple de fichier texte de html d'un site]
-[Exemple de fichier texte compliqué à comprender ?]
-
-
-Quelques exemples de fichiers binaires. Comme vous pouvez le constater, les fichiers word sont en fait des fichiers binaires qui, une fois interprétés par la machine, permettent d'afficher du texte. 
-Les premières fois, c'est un peu casse-tête mais ne vous inquiétez pas, vous finirez pas comprendre. :D 
+Vous noterez qu'il y a certains éléments de syntaxe comme les étoiles qui permettent de mettre en gras du texte ou le point d'exclamation qui permet d'insérer une image. Vous noterez aussi que le contenu du fichier est directement du texte et qu'il est facile à lire.
 
 
 # Apprendre à écrire un fichier texte
 ![Chercher un bloc note dans la barre de windows](images/search_bloc_note.png)
 # Différence entre un fichier Word (ou ) et un fichier texte
+
+
+# Mais les fichiers Word c'est des fichiers texte ? 
+Et bien non ! 
 
