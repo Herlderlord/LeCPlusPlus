@@ -1,13 +1,19 @@
 
 
 
-# Avant d'apprendre à programmer
+# Sommaire 
+
+- [Comment représenter un texte avec des octets ?](#representer)
+
+
+# <a name="introduction"></a>Avant d'apprendre à programmer
 <p align="justify"> 
-Avant de rentrer dans le coeur du sujet, à savoir, la programmation, je vous propose d'abord d'apprendre 
+Avant de rentrer dans le coeur du sujet, à savoir, la programmation, je vous propose d'abord d'en apprendre plus sur la matière première de votre ordinateur : les fichiers. 
+L'objectif de ce cours est donc d'abord de vous introduire la différence entre fichier binaire et fichier texte pour ensuite vous apprendre à créer un fichier texte contenant du code C++.
 </p>
 
 <p align="justify"> 
-L'objectif de ce premier book est de vous apprendre les bases nécessaires à la compréhension de votre machine et de vous faire mettre en pratique ceci en créant votre premier fichier texte contenant du code c++.
+
 </p>
 
 <p align="justify"> 
@@ -15,10 +21,10 @@ Ici, seules les informations dont vous avez besoin pour comprendre le cours sont
 </p>
 
 <p align="justify"> 
-Si vous n'êtes pas familiés avec l'informatique, les notions introduites dans ce premier book risquent d'être compliqués à comprendre. Je vous invite à le lire tout de même, à en prendre connaissance et à ne pas vous arrêter sur les détails que vous ne comprenez pas. Ayez confiance en votre cerveau, il va cogiter dessus et plus tard, avec l'expérience, tout va se lier tout seul. :D 
+Si vous n'êtes pas familiés avec l'informatique, les notions introduites dans ce premier *book* risquent d'être compliquées à comprendre. Je vous invite à le lire tout de même, à en prendre connaissance et à ne pas vous arrêter sur les détails que vous ne comprenez pas. Ayez confiance en votre cerveau, il va cogiter dessus et plus tard, avec l'expérience, tout va se lier tout seul. 😊
 </p>
 
-TODO: Ajouter un sommaire ici pour facilement se balader dans le contenu de ce book.
+
 
 # Qu'est-ce qu'un octet ?
 <p align="justify"> 
@@ -43,7 +49,7 @@ Ainsi, il est par exemple possible de compter avec des octets de 0 à 10 de la m
 Un octet peut contenir des valeurs comprises en 0 et 255 (2<sup>8</sup>-1).
 
 
-# Comment représenter un texte avec des octets ?
+# <a name="representer"></a>Comment représenter un texte avec des octets ?
 
 <p align="justify"> 
 Nous allons maintenant introduire la notion de représentation d'un texte par des octets. Cette notion est assez avancée et difficile à comprendre mais elle me paraît importe à introduire pour mieux appréhender les différents types de fichiers qu'il vous est possible de rencontrer dans un ordinateur.  
