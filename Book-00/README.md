@@ -14,6 +14,7 @@
     - [Créer un fichier texte](#créer-un-fichier-texte)
     - [Enregistrer le fichier texte](#enregistrer-le-fichier-texte)
   - [Sur Linux](#sur-linux)
+- [Ecrire votre premier code C++](#ecrire-votre-premier-code-c)
 - [Mais les fichiers Word c'est des fichiers texte ?](#mais-les-fichiers-word-cest-des-fichiers-texte-)
 - [La différence entre un logiciel de traitement de texte et un éditeur de texte](#la-différence-entre-un-logiciel-de-traitement-de-texte-et-un-éditeur-de-texte)
 - [La terminologie à comprendre :](#la-terminologie-à-comprendre-)
@@ -161,13 +162,14 @@ Les étoiles sont un élément de syntaxe qui permet au programme de comprendre 
 Passons à la pratique ! Pour apprendre à programmer, vous allez devoir écrire votre premier fichier contenant du code C++. Puisque tout le monde n'utilise pas le même système d'opération, je vous propose ci-dessous une version pour celles et ceux qui utilisent Windows, une autre pour Mac OS et une pour Linux.
 
 ## <a name="windows"></a>Sur Windows
-Sur votre ordinateur, cherchez d'abord le programme bloc-note pour écrire votre fichier.
+Sur votre ordinateur, cherchez d'abord le programme bloc-note pour écrire votre fichier en appuyant sur la touche windows. Comme décrit dans la figure ci-dessous, une fois que vous avez trouvé le logiciel bloc-note, appuyez sur la touche entrer.
 
-<p align="center"><img src="images/search_bloc_note.png" alt="Chercher un bloc note dans la barre de windows" width="600"/></p>
+<p align="center"><img src="images/windows_search_bloc_note.png" alt="Chercher un bloc note dans la barre de windows" width="600"/></p>
 
-Maintenant, copiez et collez le code ci-dessous dans le bloc note.
+Une fois le logiciel ouvert, enregistrez vos fichiers en allant dans Fichier => Enregistrer sous ou en appuyant sur ctrl+s. Lors de l'enregistrement, renseignez d'abord le nom du fichier et pensez à choisir l'option "Tous les fichiers" pour le champs "type" comme illustré dans la capture ci-dessous.
 
-Puis, enregistrer le fichier. **Attention**, lorsque vous enregistrez, précisez bien que l'extension n'est pas *.txt* en choisissant  
+
+<p align="center"><img src="images/windows_sauvegarde.png" alt="Sauvegarder le fichier texte au format .cpp" width="600"/></p>
 
 
 ## Sur Mac OS
@@ -188,11 +190,23 @@ Pour finir, vous pouvez enregistrer votre fichier en appuyant sur ⌘+S ou en al
 <p align="center"><img src="images/mac_sauvegarde.png" alt="Sauvegarder un fichier avec TextPad" width="350"/></p>
 
 ## Sur Linux
+Pour Linux, en partant du principe que vous utilisez ubuntu, le processus est le même que celui de Windows. Seulement, au lieu d'utiliser le logiciel "bloc-note", vous devez utiliser le logiciel "Geany".
 
 
 
+# Ecrire votre premier code C++
+Maintenant que vous savez créer et sauvegarder un fichier texte au format ".cpp", je vous invite à ajouter les lignes de code suivantes dans votre fichier.
 
+```c++
+#include<iostream>
 
+using namespace std;
+
+int main() {
+  cout << "Hello World!" << endl;
+  return 0;
+}
+```
 
 
 # Mais les fichiers Word c'est des fichiers texte ? 
