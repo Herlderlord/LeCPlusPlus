@@ -20,7 +20,7 @@
 
 
 
-# <a name="introduction"></a>Avant d'apprendre à programmer
+# Avant d'apprendre à programmer
 <p align="justify"> 
 Avant de rentrer dans le coeur du sujet, à savoir, la programmation, je vous propose d'abord d'en apprendre plus sur la matière première de votre ordinateur : les fichiers. 
 L'objectif de ce cours est donc d'abord de vous introduire la différence entre fichier binaire et fichier texte pour ensuite vous apprendre à créer un fichier texte contenant du code C++.
@@ -40,7 +40,7 @@ Si vous n'êtes pas familiés avec l'informatique, les notions introduites dans 
 
 
 
-# <a name="octet"></a>Qu'est-ce qu'un octet ?
+# Qu'est-ce qu'un octet ?
 <p align="justify"> 
 En décimale, chaque chiffre nous permet de compter de 0 à 9. Les nombres décimaux sont composés de chiffres et permettent de compter au-delà de 10.
 En binaire, les unités sont des bits et nous permettent de compter de 0 à 1. Les octets sont composés de huits bits et permettent de compter au-delà de 1.
@@ -63,7 +63,7 @@ Ainsi, il est par exemple possible de compter avec des octets de 0 à 10 de la m
 Un octet peut contenir des valeurs comprises en 0 et 255 (2<sup>8</sup>-1).
 
 
-# <a name="representer"></a>Comment représenter un texte avec des octets ?
+# Comment représenter un texte avec des octets ?
 
 <p align="justify"> 
 Nous allons maintenant introduire la notion de représentation d'un texte par des octets. Cette notion est assez avancée et difficile à comprendre mais elle me paraît importe à introduire pour mieux appréhender les différents types de fichiers qu'il vous est possible de rencontrer dans un ordinateur.  
@@ -126,7 +126,7 @@ Pour rendre ces chaines de caractères plus faciles à lire, les machines les af
 
 
 
-# <a name="binairetexte"></a>Les fichiers binaires et texte
+# Les fichiers binaires et texte
 
 <p align="justify"> 
 Nous pouvons discerner deux types de fichiers sur les ordinateurs. 
@@ -156,7 +156,7 @@ Les étoiles sont un élément de syntaxe qui permet au programme de comprendre 
 </p>
 
 
-# <a name="ecriretexte"></a>Apprendre à écrire un fichier texte
+# Apprendre à écrire un fichier texte
 
 Passons à la pratique ! Pour apprendre à programmer, vous allez devoir écrire votre premier fichier contenant du code C++. Puisque tout le monde n'utilise pas le même système d'opération, je vous propose ci-dessous une version pour celles et ceux qui utilisent Windows, une autre pour Mac OS et une pour Linux.
 
@@ -170,7 +170,7 @@ Maintenant, copiez et collez le code ci-dessous dans le bloc note.
 Puis, enregistrer le fichier. **Attention**, lorsque vous enregistrez, précisez bien que l'extension n'est pas *.txt* en choisissant  
 
 
-## <a name="mac"></a>Sur Mac OS
+## Sur Mac OS
 
 ### Ouvrir d'abord TextEdit
 Pour créer un fichier texte contenant votre code C++ sur Mac OS, vous devez d'abord lancer TextEdit. Pour cela, appuyez sur ⌘+espace et écrivez TextEdit dans la barre de recherche qui s'est affiché. Puis, appuyez sur entrer.
@@ -187,7 +187,7 @@ Pour finir, vous pouvez enregistrer votre fichier en appuyant sur ⌘+S ou en al
 
 <p align="center"><img src="images/mac_sauvegarde.png" alt="Sauvegarder un fichier avec TextPad" width="350"/></p>
 
-## <a name="linux"></a>Sur Linux
+## Sur Linux
 
 
 
@@ -215,7 +215,7 @@ Ci-dessous, vous trouverez un exemple de fichier au format docx, le format word.
 
 # La différence entre un logiciel de traitement de texte et un éditeur de texte
 
-# <a name="terminologie"></a>La terminologie à comprendre : 
+# La terminologie à comprendre : 
 
 - **Bit :** une unité d'information pouvant prendre la valeur 0 ou 1.
 - **Octet :** une suite de 8 bits. L'octet peut représenter des valeurs allant de 0 à 255.
