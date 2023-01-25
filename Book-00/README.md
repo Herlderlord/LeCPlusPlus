@@ -2,8 +2,15 @@
 
 
 # Sommaire 
-
+- [Avant d'apprendre à programmer](#introduction)
+- [Qu'est-ce qu'un octet](#octet)
 - [Comment représenter un texte avec des octets ?](#representer)
+- [Les fichiers binaires et texte](#binairetexte)
+- [Apprendre à écrire un fichier texte](#ecriretexte)
+  - [Sur Windows](#windows)
+  - [Sur Mac OS](#mac)
+  - [Sur Linux](#linux)
+
 
 
 # <a name="introduction"></a>Avant d'apprendre à programmer
@@ -26,7 +33,7 @@ Si vous n'êtes pas familiés avec l'informatique, les notions introduites dans 
 
 
 
-# Qu'est-ce qu'un octet ?
+# <a name="octet"></a>Qu'est-ce qu'un octet ?
 <p align="justify"> 
 En décimale, chaque chiffre nous permet de compter de 0 à 9. Les nombres décimaux sont composés de chiffres et permettent de compter au-delà de 10.
 En binaire, les unités sont des bits et nous permettent de compter de 0 à 1. Les octets sont composés de huits bits et permettent de compter au-delà de 1.
@@ -112,7 +119,7 @@ Pour rendre ces chaines de caractères plus faciles à lire, les machines les af
 
 
 
-# Les fichiers binaires et texte
+# <a name="binairetexte"></a>Les fichiers binaires et texte
 
 <p align="justify"> 
 Nous pouvons discerner deux types de fichiers sur les ordinateurs. 
@@ -142,11 +149,11 @@ Les étoiles sont un élément de syntaxe qui permet au programme de comprendre 
 </p>
 
 
-# Apprendre à écrire un fichier texte
+# <a name="ecriretexte"></a>Apprendre à écrire un fichier texte
 
 Passons à la pratique ! Pour apprendre à programmer, vous allez devoir écrire votre premier fichier contenant du code C++. Puisque tout le monde n'utilise pas le même système d'opération, je vous propose ci-dessous une version pour celles et ceux qui utilisent Windows, une autre pour Mac OS et une pour Linux.
 
-## Sur Windows
+## <a name="windows"></a>Sur Windows
 Sur votre ordinateur, cherchez d'abord le programme bloc-note pour écrire votre fichier.
 
 <p align="center"><img src="images/search_bloc_note.png" alt="Chercher un bloc note dans la barre de windows" width="600"/></p>
@@ -156,7 +163,7 @@ Maintenant, copiez et collez le code ci-dessous dans le bloc note.
 Puis, enregistrer le fichier. **Attention**, lorsque vous enregistrez, précisez bien que l'extension n'est pas *.txt* en choisissant  
 
 
-## Sur Mac OS
+## <a name="mac"></a>Sur Mac OS
 
 ### Ouvrir d'abord TextEdit
 Pour créer un fichier texte contenant votre code C++ sur Mac OS, vous devez d'abord lancer TextEdit. Pour cela, appuyez sur ⌘+espace et écrivez TextEdit dans la barre de recherche qui s'est affiché. Puis, appuyez sur entrer.
@@ -173,7 +180,7 @@ Pour finir, vous pouvez enregistrer votre fichier en appuyant sur ⌘+S ou en al
 
 <p align="center"><img src="images/mac_sauvegarde.png" alt="Sauvegarder un fichier avec TextPad" width="350"/></p>
 
-## Sur Linux
+## <a name="linux"></a>Sur Linux
 
 
 
