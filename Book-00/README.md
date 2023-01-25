@@ -7,7 +7,7 @@
 - [Qu'est-ce qu'un octet ?](#quest-ce-quun-octet-)
 - [Comment représenter un texte avec des octets ?](#comment-représenter-un-texte-avec-des-octets-)
 - [Les fichiers binaires et texte](#les-fichiers-binaires-et-texte)
-- [Apprendre à écrire un fichier texte](#apprendre-à-écrire-un-fichier-texte)
+- [Apprendre à créer un fichier texte](#apprendre-à-créer-un-fichier-texte)
   - [Sur Windows](#sur-windows)
   - [Sur Mac OS](#sur-mac-os)
     - [Ouvrir d'abord TextEdit](#ouvrir-dabord-textedit)
@@ -157,7 +157,7 @@ Les étoiles sont un élément de syntaxe qui permet au programme de comprendre 
 </p>
 
 
-# Apprendre à écrire un fichier texte
+# Apprendre à créer un fichier texte
 
 Passons à la pratique ! Pour apprendre à programmer, vous allez devoir écrire votre premier fichier contenant du code C++. Puisque tout le monde n'utilise pas le même système d'opération, je vous propose ci-dessous une version pour celles et ceux qui utilisent Windows, une autre pour Mac OS et une pour Linux.
 
