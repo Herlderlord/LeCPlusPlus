@@ -18,16 +18,15 @@ Ici, seules les informations dont vous avez besoin pour comprendre le cours sont
 Si vous n'êtes pas familiés avec l'informatique, les notions introduites dans ce premier book risquent d'être compliqués à comprendre. Je vous invite à le lire tout de même, à en prendre connaissance et à ne pas vous arrêter sur les détails que vous ne comprenez pas. Ayez confiance en votre cerveau, il va cogiter dessus et plus tard, avec l'expérience, tout va se lier tout seul. :D 
 </p>
 
+TODO: Ajouter un sommaire ici pour facilement se balader dans le contenu de ce book.
+
 # Qu'est-ce qu'un octet ?
 <p align="justify"> 
-Un bit est une unité d'information pouvant prendre la valeur 0 ou 1. 
-En décimale, chaque chiffre nous permet de compter de 0 à 9. 
-En binaire, les unités sont des bits et nous permettent de compter de 0 à 1.
-En décimale, les nombres sont composés de chiffres et permettent de compter au-delà de 10.
-En binaire, les octets sont composés de huits bits et permettent de compter au-delà de 1.
+En décimale, chaque chiffre nous permet de compter de 0 à 9. Les nombres décimaux sont composés de chiffres et permettent de compter au-delà de 10.
+En binaire, les unités sont des bits et nous permettent de compter de 0 à 1. Les octets sont composés de huits bits et permettent de compter au-delà de 1.
 </p>
 
-Ainsi, il est possible de compter avec des octets de 0 à 10 par exemple : 
+Ainsi, il est par exemple possible de compter avec des octets de 0 à 10 de la manière suivante : 
 - 0 en décimale = 00000000 en binaire
 - 1 en décimale = 00000001 en binaire
 - 2 en décimale = 00000010 en binaire
@@ -52,10 +51,9 @@ Nous allons maintenant introduire la notion de représentation d'un texte par de
 
 
 <p align="justify"> 
-Le caractère est l'unité du texte. 
-Il peut être une lettre minuscule (e.g. 'a'), une lettre majuscule (e.g. 'A') ou un caractère spécial (e.g. ',').
+Le caractère est une lettre ou un signe servant à la composition des textes. En informatique, un caractère peut prendre la forme d'une lettre minuscule (e.g. 'a'), d'une lettre majuscule (e.g. 'A') ou d'un caractère spécial (e.g. ',').
 Une suite d'octets peut être utilisée pour représenter un texte.
-Chaque octet a une valeur qui lui est attribuée (e.g. 01000001) et chaque valeur correspond à un caractère (e.g. 'A'). 
+Chaque octet encode un nombre (e.g. 01000001) et chaque nombre est associé à un caractère (e.g. 'A'). 
 </p>
 
 
@@ -64,6 +62,8 @@ En suivant ce principe, des programmes utilisent ce que nous nommons la table AS
 À chaque nombre est associé un caractère. 
 Exemple,  le "A" (majuscule) est associé au nombre 65. 
 Ainsi, chaque octet contient un caractère (possiblement une lettre) et une suite de ces octets permet d'écrire un texte. Pour écrire le mot "BONJOUR", en majuscule, il vous faut donc les octets suivants : 
+</p>
+
 - B = 66 en décimale = 01000010
 - O = 79 en décimale = 01001111
 - N = 78 en décimale = 01001110
@@ -71,7 +71,7 @@ Ainsi, chaque octet contient un caractère (possiblement une lettre) et une suit
 - O = 79 en décimale = 01001111
 - U = 85 en décimale = 01010101
 - R = 82 en décimale = 01010010
-</p>
+
 
 
 Ci-dessous, un apperçu de la table ASCII en question : 
@@ -91,19 +91,23 @@ Ci-dessous, un apperçu de la table ASCII en question :
 
 <p align="justify"> 
 Imaginons maintenant que je vous donne un texte sous forme d'octets. Je vais vous aider, je sépare chaque octet par un espace pour rendre le texte plus lisible :  
+</p>
 
 ```01001010 00100111 01000001 01000000 01000110 01000001 01001001 01001101```
 
-Notez que nous nommons cela une chaine de caractère, nous reviendrons plus tard sur ce principe.
+<p align="justify"> 
+Notez que nous nommons cela une chaine de caractères, nous reviendrons dans quelques chapitres sur cette définition.
+</p>
 
+<p align="justify"> 
 Il ne vous est pas évident de lire le mot que je viens de vous écrire en binaire.
-Pour rendre ces chaines de caractères plus faciles à lire, les machines les affichent sous forme de texte.
-Ainsi, nous dissocions deux types de fichiers : les fichiers binaires qui n'ont pas pour objectif d'être lus par des utilisateurs (humains) et les fichiers texte.
+Pour rendre ces chaines de caractères plus faciles à lire, les machines les affichent sous forme de texte. Dans la suite de ce *book*, nous allons introduire les fichiers binaires – qui n'ont pas pour objectif d'être lus par des utilisateurs (humains) – et texte.
 </p>
 
 
 
 # Les fichiers binaires et texte
+
 <p align="justify"> 
 Nous pouvons discerner deux types de fichiers sur les ordinateurs. 
 Les fichiers texte et les fichiers binaires.
@@ -128,13 +132,47 @@ Le **fichier texte** est un cas particulier du fichier binaire et, comme son nom
 <p align="center"><img src="images/markdown.png" alt="Exemple de code markdown ouvert sur un éditeur de texte simple" width="400"/></p>
 
 <p align="justify"> 
-Vous noterez qu'il y a certains éléments de syntaxe comme les étoiles qui permettent de mettre en gras du texte ou le point d'exclamation qui permet d'insérer une image. Vous noterez aussi que le contenu du fichier est directement du texte et qu'il est facile à lire.
+Les étoiles sont un élément de syntaxe qui permet au programme de comprendre que le texte doit être mis en gras. D'autres éléments syntaxes existent et peuvent être utilisés pour agrémenter le texte. Vous noterez aussi que le contenu du fichier, dont les éléments de syntaxe, est un texte et qu'il est facile à lire.
 </p>
 
 
 # Apprendre à écrire un fichier texte
 
+Passons à la pratique ! Pour apprendre à programmer, vous allez devoir écrire votre premier fichier contenant du code C++. Puisque tout le monde n'utilise pas le même système d'opération, je vous propose ci-dessous une version pour celles et ceux qui utilisent Windows, une autre pour Mac OS et une pour Linux.
+
+## Sur Windows
+Sur votre ordinateur, cherchez d'abord le programme bloc-note pour écrire votre fichier.
+
 <p align="center"><img src="images/search_bloc_note.png" alt="Chercher un bloc note dans la barre de windows" width="600"/></p>
+
+Maintenant, copiez et collez le code ci-dessous dans le bloc note.
+
+Puis, enregistrer le fichier. **Attention**, lorsque vous enregistrez, précisez bien que l'extension n'est pas *.txt* en choisissant  
+
+
+## Sur Mac OS
+
+### Ouvrez d'abord TextEdit
+Pour créer un fichier texte contenant votre code C++ sur Mac OS, vous devez d'abord lancer TextEdit. Pour cela, appuyez sur ⌘+espace et écrivez TextEdit dans la barre de recherche qui s'est affiché. Puis, appuyez sur entrer.
+<p align="center"><img src="images/mac_search_textedit.png" alt="Chercher textedit dans la barre de recherche de Mac" width="600"/></p>
+
+### Créer un fichier texte
+Le format par défaut de TextEdit est le format de texte enrichi – un peu l'équivalent des docx de Word. Vous pouvez changer cela en allant dans TextEdit -> Réglages et en sélectionnant Format Texte. Ensuitez, créez un nouveau fichier en appuyant sur ⌘+N ou en allant dans Fichier -> Nouveau.
+
+<p align="center"><img src="images/mac_reglage_nouveau.png" alt="Chercher textedit dans la barre de recherche de Mac" width="600"/></p>
+
+
+### Enregistrer le fichier texte
+Pour finir, vous pouvez enregistrer votre fichier en appuyant sur ⌘+S ou en allant dans Fichier -> Enregistrer. Entrez d'abord un nom de fichier finissant par ".cpp" tel que "monfichier.cpp". Décochez la case avec écrit "Utiliser « .txt » à défaut d'extension".
+
+<p align="center"><img src="images/mac_sauvegarde.png" alt="Sauvegarder un fichier avec TextPad" width="350"/></p>
+
+## Sur Linux
+
+
+
+
+
 
 
 # Mais les fichiers Word c'est des fichiers texte ? 
