@@ -152,7 +152,7 @@ Puis, enregistrer le fichier. **Attention**, lorsque vous enregistrez, précisez
 
 ## Sur Mac OS
 
-### Ouvrez d'abord TextEdit
+### Ouvrir d'abord TextEdit
 Pour créer un fichier texte contenant votre code C++ sur Mac OS, vous devez d'abord lancer TextEdit. Pour cela, appuyez sur ⌘+espace et écrivez TextEdit dans la barre de recherche qui s'est affiché. Puis, appuyez sur entrer.
 <p align="center"><img src="images/mac_search_textedit.png" alt="Chercher textedit dans la barre de recherche de Mac" width="600"/></p>
 
