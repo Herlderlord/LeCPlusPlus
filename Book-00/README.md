@@ -2,14 +2,21 @@
 
 
 # Sommaire 
-- [Avant d'apprendre à programmer](#introduction)
-- [Qu'est-ce qu'un octet](#octet)
-- [Comment représenter un texte avec des octets ?](#representer)
-- [Les fichiers binaires et texte](#binairetexte)
-- [Apprendre à écrire un fichier texte](#ecriretexte)
-  - [Sur Windows](#windows)
-  - [Sur Mac OS](#mac)
-  - [Sur Linux](#linux)
+- [Sommaire](#sommaire)
+- [Avant d'apprendre à programmer](#avant-dapprendre-à-programmer)
+- [Qu'est-ce qu'un octet ?](#quest-ce-quun-octet-)
+- [Comment représenter un texte avec des octets ?](#comment-représenter-un-texte-avec-des-octets-)
+- [Les fichiers binaires et texte](#les-fichiers-binaires-et-texte)
+- [Apprendre à écrire un fichier texte](#apprendre-à-écrire-un-fichier-texte)
+  - [Sur Windows](#sur-windows)
+  - [Sur Mac OS](#sur-mac-os)
+    - [Ouvrir d'abord TextEdit](#ouvrir-dabord-textedit)
+    - [Créer un fichier texte](#créer-un-fichier-texte)
+    - [Enregistrer le fichier texte](#enregistrer-le-fichier-texte)
+  - [Sur Linux](#sur-linux)
+- [Mais les fichiers Word c'est des fichiers texte ?](#mais-les-fichiers-word-cest-des-fichiers-texte-)
+- [La différence entre un logiciel de traitement de texte et un éditeur de texte](#la-différence-entre-un-logiciel-de-traitement-de-texte-et-un-éditeur-de-texte)
+- [La terminologie à comprendre :](#la-terminologie-à-comprendre-)
 
 
 
@@ -208,7 +215,7 @@ Ci-dessous, vous trouverez un exemple de fichier au format docx, le format word.
 
 # La différence entre un logiciel de traitement de texte et un éditeur de texte
 
-# La terminologie à comprendre : 
+# <a name="terminologie"></a>La terminologie à comprendre : 
 
 - **Bit :** une unité d'information pouvant prendre la valeur 0 ou 1.
 - **Octet :** une suite de 8 bits. L'octet peut représenter des valeurs allant de 0 à 255.
