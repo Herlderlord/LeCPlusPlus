@@ -32,6 +32,16 @@ Pour compiler un projet, c'est à dire un ensemble de fichiers formant un progra
 
 
 ## Utiliser un éditeur de texte et un compilateur (recommandé pour apprendre)
+Pour créer des programmes, un éditeur de texte et un compilateur suffisent amplement, surtout pour des petits projets. Pour des raisons pédagogiques, je vous conseille fortement d'utiliser cette approche pour coder vos premiers programme. Utiliser ces deux outils vous permettra de voir la chaine complète de programmation à savoir : écrire votre code, le compiler et l'exécuter. Certains éditeurs de textes offrent aussi une coloration syntaxique et des aides pour l'écriture du code, pour vous simplifier la vie. Je vous conseille cependant d'utiliser l'éditeur le plus simple possible pour commencer : moins l'éditeur de texte vous simplifie la vie, mieux vous apprendrez les bases de la programmation. 
+
+Ci-dessous, vous trouverez quelques recommandations d'éditeurs de texte : 
+- **Bloc-note pour Windows :** est l'éditeur de texte le plus simple que vous pouvez trouver. Il est celui avec lequel j'ai commencé personnellement. Je le trouve bien car il n'est pas possible d'observer d'effets de bords. Rien n'est automatisé, vous n'avez pas de coloration syntaxique, ni d'auto-complétion, ni d'autres programme qui modifie automatiquement votre code sans que vous ne l'ayez demandé. Je vous conseille d'utiliser le bloc-note pour vos tous premier programme.  
+- **TextEdit pour MacOS :** tout comme le bloc-note pour Windows, il est parfait pour commencer à apprendre à programmer. Pensez bien à aller dans TextEdit -> Réglages et à cocher dans *format* la case "Format texte" pour pouvoir écrire des fichiers texte. Une fois la case cochée, il vous faudra créer un nouveau fichier.
+- **Geany pour Linux :** tout comme le bloc-note et TextEdit, je vous conseille fortement d'utiliser Geany pour écrire vos premiers programmes C++. Geany est un simple éditeur de texte qui vous évitera certains effets de bords qui pourraient complexifier votre apprentissage.
+- **Notepad++ :[site officiel](https://notepad-plus-plus.org/downloads/)** est un peu plus évolué que les trois précédents logiciels. Il propose notamment la coloration syntaxique. Ce fut le deuxième logiciel que j'ai utilisé, une fois que je maîtrisais un peu la programmation. Il rendra vos sessions de code un peu plus agréable.  
+- **Visual Studio Code : [site officiel](https://code.visualstudio.com)** est un éditeur de texte auquel il est possible d'ajouter des modules. Une fois que vous aurez bien pris en main le bloc-note puis notepad++, je vous recommande vivement d'utiliser ce logiciel qui vous permettra de coder dans n'importe quel langage, au cas où vous appreniez d'autres langages de programmation en parallèle. De plus, vous pourrez ajouter petit à petit des modules qui vous aideront à coder.
+ 
+
 
 
 ## Utiliser un IDE
@@ -40,11 +50,11 @@ Comme énoncé plus tôt, un IDE est un *Integrated Development Environment*, en
 Si vous êtes curieux et que vous souhaitez découvrir des IDE, voici une petite liste d'exemples non exhaustive :
 - **Visual Studio : ([site officiel](https://visualstudio.microsoft.com/fr/))** Est adapté pour coder en C++ ou C# (et en d'autres langages). 
 - **Visual Studio Code : ([site officiel](https://code.visualstudio.com))** Il peut être vu comme un IDE mais il est généralement considéré comme un éditeur de texte modulable. 
-- **CLion : ([site officiel](https://www.jetbrains.com/fr-fr/clion/))** La gamme d'IDE de JetBrains permet de coder dans de nombreux langages. Leur programme CLion est spécialisé dans la programmation en C++.  
+- **CLion : ([site officiel](https://www.jetbrains.com/fr-fr/clion/))** La gamme d'IDE de JetBrains permet de coder dans de nombreux langages. Leur programme CLion est spécialisé dans la programmation en C++. 
+
 
 # Pourquoi je ne recommande l'usage d'un IDE pour apprendre à programmer
-Les IDE sont très utiles pour les programmeurs/codeurs. Ils leur font gagner du temps et rendent leur travail plus fluide et agréable. CEPENDANT, les IDE cachent énormément de mécanismes à l'utilisateur. Notamment, en C++, les étapes de compilation et d'exécution sont complètement opaques – ou du moins difficiles d'accès pour les néophytes. Si vous apprenez à programmer avec un IDE, vous allez passer à côté de nombreux concepts de bases et vous vous sentirez impuissants face à certaines erreurs que vous rencontrerez.
-
+Les IDE sont très utiles pour les programmeurs/codeurs. Ils leur font gagner du temps et rendent leur travail plus fluide et agréable. CEPENDANT, les IDE cachent énormément de mécanismes à l'utilisateur. Notamment, en C++, les étapes de compilation et d'exécution sont complètement opaques – ou du moins difficiles d'accès pour les néophytes. Si vous apprenez à programmer avec un IDE, vous allez passer à côté de nombreux concepts de bases et vous vous sentirez impuissants face à certaines erreurs que vous rencontrerez. Je ne vous conseille donc pas d'utiliser un IDE pour apprendre à programmer. Les projets de ce *book* et des prochains seront réalisés avec un éditeur de texte et un compilateur.
 
 
 
