@@ -14,7 +14,6 @@
   - [Sur Mac OS](#sur-mac-os)
   - [Sur Linux](#sur-linux)
 - [Terminologie](#terminologie)
-- [Pourquoi travailler sur l'éditeur de texte ?](#pourquoi-travailler-sur-léditeur-de-texte-)
 
 
 # Avant de lancer son premier programme
@@ -81,14 +80,3 @@ TODO: Expliquer comment installer le compilateur c++ sur linux.
 - Language interprété : 
 - Compilateur : 
 - Interpréteur : 
-
-
-
-
-
-# Pourquoi travailler sur l'éditeur de texte ?
-Pour des raisons pédagogiques, il est mieux de commencer à travailler sur un éditeur de texte. Les éditeurs de texte sont généralement moins complets que les IDE mais ils sont déjà pas mal.
-Je vous propose ici de travailler avec un éditeur de texte simple, sans ce que nous nommons la coloration syntaxique ou autre. Pourquoi ? Il n'est pas intelligent, il ne va pas faire des choses à votre place et vous allez vraiment comprendre l'ensemble des mécanismes qui permettent de compiler un projet C++. Sans cela, un jour vous allez avoir certains bugs et vous serez incapables de comprendre comment le résoudre, pourquoi vous l'avez résolu (si vous trouvez des astuces sur le Web) etc.
-Créer son premier fichier en c++. 
-
-Dans ce premier cours, il va falloir mettre différents.
