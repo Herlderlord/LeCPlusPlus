@@ -182,6 +182,11 @@ Pour éviter d'avoir à écrire "list" à chaque commande, les développeurs ont
 ls [chemin du dossier]
 ```
 
+Sur Windows, le principe est le même mais le nom de la commande "dir". La structure est donc la suivante : 
+```
+dir [chemin du dossier]
+```
+
 Dans tout dossier, vous trouverez toujours deux sous-dossier, "." et "..". Le dossier "." fait référence au dossier courant. Le dossier ".." fait référence au dossier parent, le dossier précédent dans l'arborescence des fichiers. Par exemple, la commande `cd .` vous déplacera dans le dossier courant. D'une certaine manière, vous ne vous êtes donc pas déplacé en utilisant cette commande. Dans cet exemple, le sous-dossier "." n'a pas d'utilité mais il devient utile dans d'autres circonstances que vous rencontrerez plus tard. Plus intéressant à court terme, la commande `cd ..` vous permet de revenir dans le dossier parent. Je vous invite très fortement à la tester.
 
 
