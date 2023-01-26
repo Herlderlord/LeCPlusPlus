@@ -10,6 +10,10 @@
   - [Sur Windows](#sur-windows)
   - [Sur Mac OS](#sur-mac-os)
   - [Sur Linux (Ubuntu)](#sur-linux-ubuntu)
+- [Vous déplacer dans un terminal](#vous-déplacer-dans-un-terminal)
+  - [Comprendre la structure arborescente des fichiers](#comprendre-la-structure-arborescente-des-fichiers)
+  - [Qu'est-ce qu'un chemin ?](#quest-ce-quun-chemin-)
+  - [Relatif versus Absolu](#relatif-versus-absolu)
 - [Compiler votre premier fichier](#compiler-votre-premier-fichier)
 - [Terminologie](#terminologie)
 
@@ -116,7 +120,7 @@ Si aucune erreur n'est notifiée par le terminal, réalisez le même processus a
 brew install gcc
 ```
 
-Maintenant que gcc est installé, nous allons pouvoir compiler les fichiers C++ pour les transformer en programmes exécutables par votre machine.
+Maintenant que votre compilateur est installé, nous allons pouvoir transformer vos fichiers c++ en des programmes exécutables par votre machine.
 
 
 ## Sur Linux (Ubuntu)
@@ -129,11 +133,51 @@ sudo apt update
 sudo apt install build-essential
 ```
 
-Une fois l'installation complète, vous pourrez utiliser votre compilateur.
+Maintenant que votre compilateur est installé, nous allons pouvoir transformer vos fichiers c++ en des programmes exécutables par votre machine.
+
+
+# Vous déplacer dans un terminal
+
+## Comprendre la structure arborescente des fichiers
+
+
+## Qu'est-ce qu'un chemin ?
+
+## Relatif versus Absolu
+
+
+
 
 # Compiler votre premier fichier
 
-TODO: Il va falloir expliquer comment se déplacer dans son dossier. Rien que cela, c'est pas évident à expliquer.
+
+Structure à utiliser
+```
+gcc [nom du fichier]
+```
+
+
+Par exemple : 
+```
+gcc monfichier.cpp
+```
+
+Par défaut, gcc va nommer l'exécutable généré "a.out". Cependant, il vous est possible de lui fournir le nom que vous souhaitez donner à l'exécutable généré en suivant la structure suivante : 
+```
+gcc [nom du fichier] -o [nom de l'exécutable]
+```
+
+Exemple : 
+```
+gcc monfichier.cpp -o monexecutable
+```
+
+Ajoutez un .exe sur windows à la fin de votre fichier.
+```
+gcc monfichier.cpp -o monexecutable.exe
+```
+
+Ne vous préoccupez pas des détails pour le moment. Vous vous posez certainement des questions telles que "pourquoi -o ?" ou "est-ce que je peux déplacer le -o et le mettre n'importe où ?". Je vous invite à vous amusez avec la commande si vous êtes curieux 
 
 
 # Terminologie
