@@ -214,7 +214,7 @@ Pour Linux, en partant du principe que vous utilisez ubuntu, le processus est le
 
 
 # Écrire votre premier code C++
-Maintenant que vous savez créer et sauvegarder un fichier texte au format ".cpp", je vous invite à ajouter les lignes de code suivantes dans votre fichier.
+Maintenant que vous savez créer et sauvegarder un fichier texte au format ".cpp", je vous invite à ajouter les lignes de code suivantes dans votre fichier. Le fichier ne doit contenir que ces lignes.
 
 ```c++
 #include<iostream>
