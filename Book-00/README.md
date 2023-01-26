@@ -7,6 +7,7 @@
 - [Qu'est-ce qu'un octet ?](#quest-ce-quun-octet-)
 - [Comment représenter un texte avec des octets ?](#comment-représenter-un-texte-avec-des-octets-)
 - [Les fichiers binaires et texte](#les-fichiers-binaires-et-texte)
+- [Mais les fichiers Word c'est des fichiers texte ?](#mais-les-fichiers-word-cest-des-fichiers-texte-)
 - [Apprendre à créer un fichier texte](#apprendre-à-créer-un-fichier-texte)
   - [Sur Windows](#sur-windows)
   - [Sur Mac OS](#sur-mac-os)
@@ -15,8 +16,6 @@
     - [Enregistrer le fichier texte](#enregistrer-le-fichier-texte)
   - [Sur Linux](#sur-linux)
 - [Ecrire votre premier code C++](#ecrire-votre-premier-code-c)
-- [Mais les fichiers Word c'est des fichiers texte ?](#mais-les-fichiers-word-cest-des-fichiers-texte-)
-- [La différence entre un logiciel de traitement de texte et un éditeur de texte](#la-différence-entre-un-logiciel-de-traitement-de-texte-et-un-éditeur-de-texte)
 - [La terminologie à comprendre :](#la-terminologie-à-comprendre-)
 
 
@@ -157,6 +156,26 @@ Les étoiles sont un élément de syntaxe qui permet au programme de comprendre 
 </p>
 
 
+
+# Mais les fichiers Word c'est des fichiers texte ? 
+<p align="justify"> 
+Et bien non ! Si j'en parle ici, c'est parce que j'ai déjà vu des étudiants essayer de coder depuis "Word". Cela en fera rire certains. Pour ma part, je trouve ça intéressant. Le principe de fichier texte n'est pas forcément évident à appréhender la première fois et non, Word n'enregistre pas vos fichiers au format texte. 
+</p>
+
+<p align="justify"> 
+En effet, les fichiers Word sont des fichiers binaires qui sont interprétés par le logiciel de manière à les rendre compréhensibles pour l'oeil humain. Cependant, la matière première, le fichier sauvegardé, est bien un fichier binaire impossible à lire pour un humain. Ne vous y trompez pas. 
+</p>
+
+<p align="justify"> 
+Ci-dessous, vous trouverez un exemple de fichier au format docx, le format word. Ce fichier est disponible dans le sous-dossier "files" de ce répertoire. La partie supérieure de l'image montre le contenu textuel du fichier tandis que l'image inférieure montre le fichier tel que LibreOffice Writer le montre.
+</p>
+
+<p align="center"><img src="images/word_file_opened_as_text.png" alt="Exemple d'affichage textuel d'un fichier word. L'image au-dessous affiche le contenu de cet affichage, l'image en-dessous montre l'affichage de ce fichier par le logiciel LibreOffice Writer." width="600"/></p>
+
+<p align="justify">Vous pouvez constater que la partie supérieure n'est pas compréhensible. A contrario, vous n'avez aucun problème à lire le texte présent dans la partie inférieure. Dans le cas d'un fichier texte, vous n'auriez eu aucun problème à lire le fichier d'origine. </p>
+
+
+
 # Apprendre à créer un fichier texte
 
 Passons à la pratique ! Pour apprendre à programmer, vous allez devoir écrire votre premier fichier contenant du code C++. Puisque tout le monde n'utilise pas le même système d'opération, je vous propose ci-dessous une version pour celles et ceux qui utilisent Windows, une autre pour Mac OS et une pour Linux.
@@ -209,25 +228,6 @@ int main() {
 ```
 
 
-# Mais les fichiers Word c'est des fichiers texte ? 
-<p align="justify"> 
-Et bien non ! Si j'en parle ici, c'est parce que j'ai déjà vu des étudiants essayer de coder depuis "Word". Cela en fera rire certains. Pour ma part, je trouve ça intéressant. Le principe de fichier texte n'est pas forcément évident à appréhender la première fois et non, Word n'enregistre pas vos fichiers ua format texte. 
-</p>
-
-<p align="justify"> 
-En effet, les fichiers Word sont des fichiers binaires qui sont interprétés par le logiciel de manière à les rendre compréhensibles pour l'oeil humain. Cependant, la matière première, le fichier sauvegardé, est bien un fichier binaire. Ne vous y trompez pas. 
-</p>
-
-<p align="justify"> 
-Ci-dessous, vous trouverez un exemple de fichier au format docx, le format word. Ce fichier est disponible dans le sous-dossier "files" de ce répertoire. La partie supérieure de l'image montre le contenu textuel du fichier tandis que l'image inférieure montre le fichier tel que LibreOffice Writer le montre.
-</p>
-
-<p align="center"><img src="images/word_file_opened_as_text.png" alt="Exemple d'affichage textuel d'un fichier word. L'image au-dessous affiche le contenu de cet affichage, l'image en-dessous montre l'affichage de ce fichier par le logiciel LibreOffice Writer." width="600"/></p>
-
-<p align="justify">Vous pouvez constater que la partie supérieure n'est pas compréhensible. A contrario, vous n'avez aucun problème à lire le texte présent dans la partie inférieure. Dans le cas d'un fichier texte, vous n'auriez eu aucun problème à lire le fichier d'origine. </p>
-
-
-# La différence entre un logiciel de traitement de texte et un éditeur de texte
 
 # La terminologie à comprendre : 
 
@@ -239,5 +239,3 @@ Ci-dessous, vous trouverez un exemple de fichier au format docx, le format word.
 - **Chaine de caractères :** est une suite de caractères, plusieurs caractères mis les uns à la suite des autres. Une chaine de caractères peut former un mot, un texte, une code etc. Exemples : "Bonjour", "BONJOUR", "BOnJouR", "Je parle tous les jours.", "if(true)", etc.
 - **Fichier binaire :** est composé d'un ensemble d'octets qui n'ont pas nécessairement pour objectif d'être lus par des humains. Les programmes peuvent cependant s'en servir. Exemples : carte d'un jeu vidéo, un fichier word ou un enregistrement audio.
 - **Fichier texte :** est un cas particulier du fichier et a pour vocation a être lu par un humain.
-
-
