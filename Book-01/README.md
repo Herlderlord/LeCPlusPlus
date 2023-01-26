@@ -6,12 +6,11 @@
   - [Utiliser un éditeur de texte et un compilateur (recommandé pour apprendre)](#utiliser-un-éditeur-de-texte-et-un-compilateur-recommandé-pour-apprendre)
   - [Utiliser un IDE](#utiliser-un-ide)
 - [Pourquoi je ne recommande l'usage d'un IDE pour apprendre à programmer](#pourquoi-je-ne-recommande-lusage-dun-ide-pour-apprendre-à-programmer)
-- [Compiler son premier fichier](#compiler-son-premier-fichier)
+- [Installer un compilateur](#installer-un-compilateur)
   - [Sur Windows](#sur-windows)
-    - [Installer mingw](#installer-mingw)
-    - [Ajouter mingw dans la variable PATH](#ajouter-mingw-dans-la-variable-path)
   - [Sur Mac OS](#sur-mac-os)
-  - [Sur Linux](#sur-linux)
+  - [Sur Linux (Ubuntu)](#sur-linux-ubuntu)
+- [Compiler votre premier fichier](#compiler-votre-premier-fichier)
 - [Terminologie](#terminologie)
 
 
@@ -87,23 +86,55 @@ Les IDE sont très utiles pour les programmeurs/codeurs. Ils leur font gagner du
 
 
 
-# Compiler son premier fichier
+# Installer un compilateur
 
 <p align="justify"> 
 Pour compiler votre fichier, vous allez avoir besoin d'un compilateur de code c++. La démarche vous est expliquée ci-dessous.
 </p>
 
 ## Sur Windows
-### Installer mingw
+
 TODO: Expliquer comment télécharger et installer mingw
-### Ajouter mingw dans la variable PATH
 TODO: Expliquer comment ajouter le bin de mingw dans la variable PATH
 
 ## Sur Mac OS 
-TODO: Expliquer comment installer le compilateur c++ sur mac os. Différence avec les arch64 ?
 
-## Sur Linux 
-TODO: Expliquer comment installer le compilateur c++ sur linux.
+Sur mac, il vous est possible d'installer la commande "gcc". Pour cela, je vous propose d'utiliser homebrew, un gestionnaire de paquets, qui vous facilitera la tâche. 
+
+Pour installer homebrew, lancez le programme "Terminal" en appuyant sur ⌘+espace et en cherchant le programme "Terminal". Une fois le terminal ouvert, vous pourrez y entrer des lignes de commande. Si vous n'êtes pas habitués à ce principe, copiez et collez bêtement la ligne suivante et appuyez sur entrer pour lancer la commande.
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+
+Attention : Il est possible que les lignes précédentes ne soient pas très à jour et ne fonctionnent pas correctement. Si tel est le cas, je vous propose d'aller sur le [site officiel de homebrew](https://brew.sh/index_fr) pour l'installer.
+
+
+Si aucune erreur n'est notifiée par le terminal, réalisez le même processus avec la ligne suivante en la copiant puis la collant dans le terminal et en appuyant finalement sur entrer. Cette ligne de commande va installer la commande gcc – et d'autres outils dont vous n'aurez pour le moment pas l'utilité.
+
+```
+brew install gcc
+```
+
+Maintenant que gcc est installé, nous allons pouvoir compiler les fichiers C++ pour les transformer en programmes exécutables par votre machine.
+
+
+## Sur Linux (Ubuntu)
+Dans ces *books*, nous partons du principe que les lecteurs utilisant Linux sont sous la distribution Ubuntu. Les tâches à exécuter sont généralement les mêmes (ou très légèrement différentes) d'une distribution à une autre. Si vous rencontrez des difficultés, n'hésitez pas à créer un *issue*.
+
+Pour installer gcc, vous devrez ouvrir votre terminal. Le terminal est trouvable dans la liste des programmes ou dans la barre de recherche si vous en avez une sur votre système d'exploitation. Une fois ouvert, vous pourrez lancer les commandes suivantes dans votre terminal. Pour lancer une commande, il faut la copier ou l'écrire dans votre terminal et appuyer sur entrer. Je vous invite à lancer les commandes les unes après les autres.
+
+```
+sudo apt update
+sudo apt install build-essential
+```
+
+Une fois l'installation complète, vous pourrez utiliser votre compilateur.
+
+# Compiler votre premier fichier
+
+TODO: Il va falloir expliquer comment se déplacer dans son dossier. Rien que cela, c'est pas évident à expliquer.
 
 
 # Terminologie
