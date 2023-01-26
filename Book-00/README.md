@@ -227,6 +227,7 @@ int main() {
 }
 ```
 
+Félicitation, vous avez créé votre premier fichier contenant du code C++. La seconde étape consiste à compiler ce fichier pour pouvoir l'exécuter. Tout cela vous est présenté dans le *book* suivant que je vous invite à lire.
 
 
 # La terminologie à comprendre : 
