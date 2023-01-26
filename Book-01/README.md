@@ -12,7 +12,7 @@
   - [Sur Linux (Ubuntu)](#sur-linux-ubuntu)
 - [Vous déplacer dans l'arborescence de vos fichiers](#vous-déplacer-dans-larborescence-de-vos-fichiers)
   - [Qu'est-ce qu'un chemin ?](#quest-ce-quun-chemin-)
-  - [Chemin relatif versus chemin bsolu](#chemin-relatif-versus-chemin-bsolu)
+  - [Chemin relatif versus chemin absolu](#chemin-relatif-versus-chemin-absolu)
 - [Compiler votre premier fichier](#compiler-votre-premier-fichier)
 - [Terminologie](#terminologie)
 
@@ -158,7 +158,7 @@ Dans cette section, nous allons vous apprendre à vous déplacer dans l'arboresc
 ## Qu'est-ce qu'un chemin ?
 Le chemin d'un fichier indique son positionnement dans la machine (ordinateur, serveur) que vous utilisez. Grâce au chemin d'un fichier, vous pouvez indiquer comment y accéder pour le lire, le modifier ou l'exécuter.
 
-## Chemin relatif versus chemin bsolu
+## Chemin relatif versus chemin absolu
 
 
 
