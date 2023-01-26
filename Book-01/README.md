@@ -24,11 +24,16 @@ Dans le book-0, vous avez appris à créer un fichier texte contenant votre code
 # Différence entre les languages compilés et interprétés
 
 <p align="justify"> 
-Un langage de programmation est ... Parmi les langages de programmation, nous pouvons discerner deux types de langages :
+Pour écrire un programme, il est nécessaire de suivre un langage de programmation qui est constitué de mots clefs, de règles syntaxiques etc. Parmi les langages de programmation, nous pouvons identifier deux types principaux : 
 </p>
 
-- **Le language compilé (e.g. c++) :** le code est d'abord compilé/transformé en langage machine, un fichier binaire que votre machine peut exécuter. Le fichier résultant peut ensuite être exécuté par votre machine.
+- **Le language compilé (e.g. c++) :** le code est d'abord compilé/transformé en langage machine, un fichier binaire que votre machine peut exécuter.
 - **Le langage interprété (e.g. python) :** le code est lu ligne par ligne par un interpréteur qui transforme "à la volée" votre code en langage machine.
+
+
+<p align="justify"> 
+Dans les <it>books</it> que vous êtes en train de lire, vous allez apprendre à programmer en C++, un langage compilé. Ainsi, pour créer un programme et l'exécuter, vous devez passer par l'étape de développement, que nous pouvons nommer codage ou encore programmation, de compilation puis d'exécution. 
+</p>
 
 
 # Les logiciels pour créer des programmes C++
