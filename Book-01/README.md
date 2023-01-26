@@ -164,6 +164,25 @@ Le chemin d'un fichier indique son positionnement dans la machine (ordinateur, s
 
 ## Vous déplacer dans un terminal
 
+Sur Mac OS et sur Linux : 
+```
+cd [chemin du dossier]
+```
+
+
+Pour éviter d'avoir à écrire "change directory" à chaque commande, les développeurs ont préféré opter pour le diminutif "cd". 
+
+Nous nommons "dossier courant" le dossier dans lequel vous vous trouvez dans un terminal ou dans l'explorateur de fichier. Pour vous aider à y voir plus clair, vous pouvez afficher les fichiers et dossiers présents dans votre dossier courant grâce à la commande suivante sur Linux et Mac OS : 
+``` 
+ls
+```
+
+Pour éviter d'avoir à écrire "list" à chaque commande, les développeurs ont cette fois-ci préféré opter pour le diminutif "ls". Vous pouvez aussi afficher le contenu d'un autre dossier : 
+```
+ls [chemin du dossier]
+```
+
+Dans tout dossier, vous trouverez toujours deux sous-dossier, "." et "..". Le dossier "." fait référence au dossier courant. Le dossier ".." fait référence au dossier parent, le dossier précédent dans l'arborescence des fichiers. Par exemple, la commande `cd .` vous déplacera dans le dossier courant. D'une certaine manière, vous ne vous êtes donc pas déplacé en utilisant cette commande. Dans cet exemple, le sous-dossier "." n'a pas d'utilité mais il devient utile dans d'autres circonstances que vous rencontrerez plus tard. Plus intéressant à court terme, la commande `cd ..` vous permet de revenir dans le dossier parent. Je vous invite très fortement à la tester.
 
 
 # Compiler votre premier fichier
