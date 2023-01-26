@@ -3,7 +3,7 @@
 - [Avant de lancer son premier programme](#avant-de-lancer-son-premier-programme)
 - [Langues compilés](#langues-compilés)
 - [Différence entre les Languages compilés et interprétés](#différence-entre-les-languages-compilés-et-interprétés)
-- [Les logiciels pour compiler du C++](#les-logiciels-pour-compiler-du-c)
+- [Les logiciels pour créer des programmes C++](#les-logiciels-pour-créer-des-programmes-c)
   - [Utiliser un éditeur de texte et un compilateur (recommandé pour apprendre)](#utiliser-un-éditeur-de-texte-et-un-compilateur-recommandé-pour-apprendre)
   - [Utiliser un IDE](#utiliser-un-ide)
 - [Pourquoi je ne recommande l'usage d'un IDE pour apprendre à programmer](#pourquoi-je-ne-recommande-lusage-dun-ide-pour-apprendre-à-programmer)
@@ -26,7 +26,7 @@ Un langage de programmation est ... Parmi les langages de programmation, nous po
 - **Le langage interprété (e.g. python) :** le code est lu ligne par ligne par un interpréteur qui transforme "à la volée" votre code en langage machine.
 
 
-# Les logiciels pour compiler du C++
+# Les logiciels pour créer des programmes C++
 Pour compiler un projet, c'est à dire un ensemble de fichiers formant un programme, nous pouvons identifier deux méthodes. La première consiste à utiliser un éditeur de texte, à enregistrer vos fichiers au format c++ et à les compiler à l'aide d'un compilateur. Le second consiste à utiliser ce que nous nommons un IDE (Integrated Development Environment). Les deux méthodes sont présentées ci-après. Aussi, il y est expliqué pourquoi nous allons utiliser la première.
 
 
