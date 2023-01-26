@@ -13,6 +13,7 @@
 - [Vous déplacer dans l'arborescence de vos fichiers](#vous-déplacer-dans-larborescence-de-vos-fichiers)
   - [Qu'est-ce qu'un chemin ?](#quest-ce-quun-chemin-)
   - [Chemin relatif et chemin absolu](#chemin-relatif-et-chemin-absolu)
+  - [Qu'est-ce qu'un terminal ?](#quest-ce-quun-terminal-)
   - [Vous déplacer dans un terminal](#vous-déplacer-dans-un-terminal)
 - [Compiler votre premier fichier](#compiler-votre-premier-fichier)
 - [Terminologie](#terminologie)
@@ -160,6 +161,12 @@ Dans cette section, nous allons vous apprendre à vous déplacer dans l'arboresc
 Le chemin d'un fichier indique son positionnement dans la machine (ordinateur, serveur) que vous utilisez. Grâce au chemin d'un fichier, vous pouvez indiquer comment y accéder pour le lire, le modifier ou l'exécuter.
 
 ## Chemin relatif et chemin absolu
+
+
+## Qu'est-ce qu'un terminal ?
+
+<p align="center"><img src="images/exemple_prompt_terminal.png" alt="Exemple de prompt de terminal" width="400"/></p>
+
 
 
 ## Vous déplacer dans un terminal
