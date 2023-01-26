@@ -5,15 +5,14 @@
 - [Les logiciels pour créer des programmes C++](#les-logiciels-pour-créer-des-programmes-c)
   - [Utiliser un éditeur de texte et un compilateur (recommandé pour apprendre)](#utiliser-un-éditeur-de-texte-et-un-compilateur-recommandé-pour-apprendre)
   - [Utiliser un IDE](#utiliser-un-ide)
-- [Pourquoi je ne recommande l'usage d'un IDE pour apprendre à programmer](#pourquoi-je-ne-recommande-lusage-dun-ide-pour-apprendre-à-programmer)
+- [Pourquoi je ne recommande pas l'usage d'un IDE pour apprendre à programmer](#pourquoi-je-ne-recommande-pas-lusage-dun-ide-pour-apprendre-à-programmer)
 - [Installer un compilateur](#installer-un-compilateur)
   - [Sur Windows](#sur-windows)
   - [Sur Mac OS](#sur-mac-os)
   - [Sur Linux (Ubuntu)](#sur-linux-ubuntu)
-- [Vous déplacer dans un terminal](#vous-déplacer-dans-un-terminal)
-  - [Comprendre la structure arborescente des fichiers](#comprendre-la-structure-arborescente-des-fichiers)
+- [Vous déplacer dans l'arborescence de vos fichiers](#vous-déplacer-dans-larborescence-de-vos-fichiers)
   - [Qu'est-ce qu'un chemin ?](#quest-ce-quun-chemin-)
-  - [Relatif versus Absolu](#relatif-versus-absolu)
+  - [Chemin relatif versus chemin bsolu](#chemin-relatif-versus-chemin-bsolu)
 - [Compiler votre premier fichier](#compiler-votre-premier-fichier)
 - [Terminologie](#terminologie)
 
@@ -76,12 +75,13 @@ Comme énoncé plus tôt, un IDE est un *Integrated Development Environment*, en
 <p align="justify"> 
 Si vous êtes curieux et que vous souhaitez découvrir des IDE, voici une petite liste d'exemples non exhaustive :
 </p>
+
 - **Visual Studio : ([site officiel](https://visualstudio.microsoft.com/fr/))** Est adapté pour coder en C++ ou C# (et en d'autres langages). 
 - **Visual Studio Code : ([site officiel](https://code.visualstudio.com))** Il peut être vu comme un IDE mais il est généralement considéré comme un éditeur de texte modulable. 
 - **CLion : ([site officiel](https://www.jetbrains.com/fr-fr/clion/))** La gamme d'IDE de JetBrains permet de coder dans de nombreux langages. Leur programme CLion est spécialisé dans la programmation en C++. 
 
 
-# Pourquoi je ne recommande l'usage d'un IDE pour apprendre à programmer
+# Pourquoi je ne recommande pas l'usage d'un IDE pour apprendre à programmer
 
 <p align="justify"> 
 Les IDE sont très utiles pour les programmeurs/codeurs. Ils leur font gagner du temps et rendent leur travail plus fluide et agréable. CEPENDANT, les IDE cachent énormément de mécanismes à l'utilisateur. Notamment, en C++, les étapes de compilation et d'exécution sont complètement opaques – ou du moins difficiles d'accès pour les néophytes. Si vous apprenez à programmer avec un IDE, vous allez passer à côté de nombreux concepts de bases et vous vous sentirez impuissants face à certaines erreurs que vous rencontrerez. Je ne vous conseille donc pas d'utiliser un IDE pour apprendre à programmer. Les projets de ce *book* et des prochains seront réalisés avec un éditeur de texte et un compilateur.
@@ -136,14 +136,29 @@ sudo apt install build-essential
 Maintenant que votre compilateur est installé, nous allons pouvoir transformer vos fichiers c++ en des programmes exécutables par votre machine.
 
 
-# Vous déplacer dans un terminal
+# Vous déplacer dans l'arborescence de vos fichiers
+Pour compiler un fichier, il vous est nécessaire d'indiquer son chemin. Dans votre ordinateur, les fichiers sont organisés en arborescence. Un dossier peut contenir d'autres dossiers et des fichiers. Comme illustré ci-dessous, l'organisation des dossiers peut être vu comme un arbre. Sur Linux et Mac OS, le dossier dit "racine", est le premier dossier, contenu par aucun autre dossier et se nomme "/". Pour Windows, il existe un dossier racine par disque monté et sont nommés avec la lettre associée au disque. Par exemple, "C://", "D://", "E://" etc. 
 
-## Comprendre la structure arborescente des fichiers
+
+<p align="center"><img src="images/arborescence.png" alt="Exemple d'arborescence de fichiers" width="400"/></p>
+
+
+Si vous avez utilisé un ordinateur sur Windows, vous vous êtes certainement déjà servi de ce que nous (les informaticiens) nommons un explorateur de fichiers. Ce programme, présent nativement sur Windows, vous permet de naviguer dans l'arborescence de vos fichiers. 
+
+
+
+Dans cette section, nous vous présenterons tous les concepts  nous présentons ce qu'est une arborescence, un chemin, nous présenterons la différence entre un chemin relatif et un chemin absolu et nous vous apprendrons à vous déplacer sur votre machine via le terminal, qu'elle soit sur Windows, Mac ou Linux.
+
+Dans cette section, nous allons vous apprendre à vous déplacer dans l'arborescence de vos fichiers. 
+
+
+
 
 
 ## Qu'est-ce qu'un chemin ?
+Le chemin d'un fichier indique son positionnement dans la machine (ordinateur, serveur) que vous utilisez. Grâce au chemin d'un fichier, vous pouvez indiquer comment y accéder pour le lire, le modifier ou l'exécuter.
 
-## Relatif versus Absolu
+## Chemin relatif versus chemin bsolu
 
 
 
