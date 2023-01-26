@@ -15,7 +15,7 @@
     - [Créer un fichier texte](#créer-un-fichier-texte)
     - [Enregistrer le fichier texte](#enregistrer-le-fichier-texte)
   - [Sur Linux](#sur-linux)
-- [Ecrire votre premier code C++](#ecrire-votre-premier-code-c)
+- [Écrire votre premier code C++](#écrire-votre-premier-code-c)
 - [La terminologie :](#la-terminologie-)
 
 
@@ -213,7 +213,7 @@ Pour Linux, en partant du principe que vous utilisez ubuntu, le processus est le
 
 
 
-# Ecrire votre premier code C++
+# Écrire votre premier code C++
 Maintenant que vous savez créer et sauvegarder un fichier texte au format ".cpp", je vous invite à ajouter les lignes de code suivantes dans votre fichier.
 
 ```c++
