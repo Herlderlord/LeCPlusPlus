@@ -134,7 +134,7 @@ Les fichiers texte et les fichiers binaires.
 </p>
 
 <p align="justify"> 
-Le **fichier binaire** contient un ensemble d'octets dans lesquels des valeurs sont stockées. 
+Le <strong>fichier binaire</strong> contient un ensemble d'octets dans lesquels des valeurs sont stockées. 
 Le fichier tel quel ne peut être lu par un humain. 
 Un programme peut cependant lire un fichier binaire pour charger la carte d'un jeu vidéo par exemple. L'image ci-dessous vous montre le contenu d'un fichier son affiché sous la forme d'un texte : 
 </p>
@@ -146,7 +146,7 @@ Le contenu de ce fichier n'étant pas du texte, il nous est impossible d'interpr
 </a>
 
 <p align="justify"> 
-Le **fichier texte** est un cas particulier du fichier binaire et, comme son nom l'indique, contient une suite de caractères (a, b, c, à, 0, 7 etc ...) qui forme un texte. Un programmeur écrit généralement son code dans un fichier texte. Par exemple, j'écris ce cours en markdown comme illustré ci-dessous : 
+Le <strong>fichier texte</strong> est un cas particulier du fichier binaire et, comme son nom l'indique, contient une suite de caractères (a, b, c, à, 0, 7 etc ...) qui forme un texte. Un programmeur écrit généralement son code dans un fichier texte. Par exemple, j'écris ce cours en markdown comme illustré ci-dessous : 
 </p>
 
 <p align="center"><img src="images/markdown.png" alt="Exemple de code markdown ouvert sur un éditeur de texte simple" width="400"/></p>
