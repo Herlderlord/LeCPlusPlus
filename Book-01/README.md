@@ -89,12 +89,11 @@ Les IDE sont très utiles pour les programmeurs/codeurs. Ils leur font gagner du
 # Installer un compilateur
 
 <p align="justify"> 
-Pour compiler votre fichier, vous allez avoir besoin d'un compilateur de code c++. La démarche vous est expliquée ci-dessous.
+Pour compiler un fichier C++, vous devez utiliser un compilateur. La démarche d'installation d'un compilateur vous est présenté dans les sous-parties suivantes pour les OS Windows, Mac OS, et Linux (Ubuntu).
 </p>
 
 ## Sur Windows
-
-TODO: Expliquer comment télécharger et installer mingw
+Sur Windows, il est possible de compiler des fichiers c++ grâce au logiciel MINGW. Une version téléchargeable est disponbile sur sourceforge, [cliquez ici pour accéder à la page de téléchargement](https://sourceforge.net/projects/mingw/). Une fois l'exécutable téléchargé, lancez-le et suivez ses instructions pour installer le compilateur. Pensez à vous remémorer le chemin d'installation. Par défaut, MINGW est installé dans 
 TODO: Expliquer comment ajouter le bin de mingw dans la variable PATH
 
 ## Sur Mac OS 
