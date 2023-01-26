@@ -2,7 +2,7 @@
 - [Sommaire](#sommaire)
 - [Avant de lancer son premier programme](#avant-de-lancer-son-premier-programme)
 - [Langages compilés](#langages-compilés)
-- [Différence entre les Languages compilés et interprétés](#différence-entre-les-languages-compilés-et-interprétés)
+- [Différence entre les languages compilés et interprétés](#différence-entre-les-languages-compilés-et-interprétés)
 - [Les logiciels pour créer des programmes C++](#les-logiciels-pour-créer-des-programmes-c)
   - [Utiliser un éditeur de texte et un compilateur (recommandé pour apprendre)](#utiliser-un-éditeur-de-texte-et-un-compilateur-recommandé-pour-apprendre)
   - [Utiliser un IDE](#utiliser-un-ide)
@@ -20,7 +20,7 @@
 Dans le book-0, vous avez appris à créer un fichier texte contenant votre code c++. Dans ce book, nous allons apprendre à exécuter un programme à partir d'un code C++. Nous verrons notamment comment compiler un fichier C++, étape indispensable avant d'exécuter le programme résultant. Comme d'habitude, différentes notions sont introduites avant de passer à la pratique. Si vous bloquez sur ces notions, n'hésitez pas à passer à la partie suivante, vous comprendrez certains concepts à force de pratique. Ayez confiance en la puissance d'apprentissage de votre cerveau. 😊
 
 # Langages compilés
-# Différence entre les Languages compilés et interprétés
+# Différence entre les languages compilés et interprétés
 Un langage de programmation est ... Parmi les langages de programmation, nous pouvons discerner deux types de langages :
 - **Le language compilé (e.g. c++) :** le code est d'abord compilé/transformé en langage machine, un fichier binaire que votre machine peut exécuter. Le fichier résultant peut ensuite être exécuté par votre machine.
 - **Le langage interprété (e.g. python) :** le code est lu ligne par ligne par un interpréteur qui transforme "à la volée" votre code en langage machine.
