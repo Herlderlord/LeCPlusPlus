@@ -1,7 +1,6 @@
 # Sommaire 
 - [Sommaire](#sommaire)
 - [Avant de lancer son premier programme](#avant-de-lancer-son-premier-programme)
-- [Langages compilés](#langages-compilés)
 - [Différence entre les languages compilés et interprétés](#différence-entre-les-languages-compilés-et-interprétés)
 - [Les logiciels pour créer des programmes C++](#les-logiciels-pour-créer-des-programmes-c)
   - [Utiliser un éditeur de texte et un compilateur (recommandé pour apprendre)](#utiliser-un-éditeur-de-texte-et-un-compilateur-recommandé-pour-apprendre)
@@ -22,7 +21,6 @@
 Dans le book-0, vous avez appris à créer un fichier texte contenant votre code c++. Dans ce book, nous allons apprendre à exécuter un programme à partir d'un code C++. Nous verrons notamment comment compiler un fichier C++, étape indispensable avant d'exécuter le programme résultant. Comme d'habitude, différentes notions sont introduites avant de passer à la pratique. Si vous bloquez sur ces notions, n'hésitez pas à passer à la partie suivante, vous comprendrez certains concepts à force de pratique. Ayez confiance en la puissance d'apprentissage de votre cerveau. 😊
 </p>
 
-# Langages compilés
 # Différence entre les languages compilés et interprétés
 
 <p align="justify"> 
