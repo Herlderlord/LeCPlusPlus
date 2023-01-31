@@ -70,7 +70,7 @@ Ci-dessous, vous trouverez quelques recommandations d'éditeurs de texte :
 ## Utiliser un IDE
 
 <p align="justify"> 
-Comme énoncé plus tôt, un IDE est un *Integrated Development Environment*, en français, un environement de développement « intégré » (EDI). L'objectif de ces logiciels est de faciliter la vie du développement. Ainsi, tous les outils dont ils a besoin sont réunis dans un seul et même programme. Ainsi, vous trouverez dans un IDE des outils de *profiling*, *debugging*, *versioning*, etc. Vous y trouverez bien sûr aussi un éditeur de texte avec de la coloration syntaxique et des aides écrire votre code, notamment ce que nous nommons l'auto-complétion.
+Comme énoncé plus tôt, un IDE est un <i>Integrated Development Environment</i>, en français, un environement de développement « intégré » (EDI). L'objectif de ces logiciels est de faciliter la vie du développement. Ainsi, tous les outils dont ils a besoin sont réunis dans un seul et même programme. Ainsi, vous trouverez dans un IDE des outils de <i>profiling</i>, <it>debugging</i>, <i>versioning</i>, etc. Vous y trouverez bien sûr aussi un éditeur de texte avec de la coloration syntaxique et des aides écrire votre code, notamment ce que nous nommons l'auto-complétion.
 </p>
 
 
