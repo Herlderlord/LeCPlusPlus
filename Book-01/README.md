@@ -86,7 +86,7 @@ Si vous êtes curieux et que vous souhaitez découvrir des IDE, voici une petite
 # Pourquoi je ne recommande pas l'usage d'un IDE pour apprendre à programmer
 
 <p align="justify"> 
-Les IDE sont très utiles pour les programmeurs/codeurs. Ils leur font gagner du temps et rendent leur travail plus fluide et agréable. CEPENDANT, les IDE cachent énormément de mécanismes à l'utilisateur. Notamment, en C++, les étapes de compilation et d'exécution sont complètement opaques – ou du moins difficiles d'accès pour les néophytes. Si vous apprenez à programmer avec un IDE, vous allez passer à côté de nombreux concepts de bases et vous vous sentirez impuissants face à certaines erreurs que vous rencontrerez. Je ne vous conseille donc pas d'utiliser un IDE pour apprendre à programmer. Les projets de ce *book* et des prochains seront réalisés avec un éditeur de texte et un compilateur.
+Les IDE sont très utiles pour les programmeurs/codeurs. Ils leur font gagner du temps et rendent leur travail plus fluide et agréable. CEPENDANT, les IDE cachent énormément de mécanismes à l'utilisateur. Notamment, en C++, les étapes de compilation et d'exécution sont complètement opaques – ou du moins difficiles d'accès pour les néophytes. Si vous apprenez à programmer avec un IDE, vous allez passer à côté de nombreux concepts de bases et vous vous sentirez impuissants face à certaines erreurs que vous rencontrerez. Je ne vous conseille donc pas d'utiliser un IDE pour apprendre à programmer. Les projets de ce <i>book</i> et des prochains seront réalisés avec un éditeur de texte et un compilateur.
 </p>
 
 
