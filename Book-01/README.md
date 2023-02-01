@@ -4,6 +4,8 @@
 - [Qu'est-ce qu'un chemin ?](#quest-ce-quun-chemin-)
   - [Chemin absolu](#chemin-absolu)
   - [Chemin relatif](#chemin-relatif)
+  - [Les dossiers courants et parents](#les-dossiers-courants-et-parents)
+  - [Le chemin d'un fichier](#le-chemin-dun-fichier)
 - [Qu'est-ce qu'un terminal ?](#quest-ce-quun-terminal-)
 - [Vous déplacer dans un terminal](#vous-déplacer-dans-un-terminal)
 
@@ -33,13 +35,120 @@ Pour apprendre à vous déplacer dans les dossiers de votre ordinateur, nous abo
 
 
 # Qu'est-ce qu'un chemin ?
-Le chemin d'un fichier indique son positionnement dans la machine (ordinateur, serveur) que vous utilisez. Grâce au chemin d'un fichier, vous pouvez indiquer comment y accéder pour le lire, le modifier ou l'exécuter. 
+
+<p align="justify">
+Le chemin d'un fichier (ou dossier) indique son positionnement dans la machine (ordinateur, serveur) que vous utilisez. Grâce au chemin d'un fichier, vous pouvez indiquer comment y accéder pour le lire, le modifier ou l'exécuter. Nous identifions deux types de chemins que nous allons présenter ci-après, les chemins absolus et les chemins relatifs.
+</p>
+
+
 
 
 ## Chemin absolu
 
+<p align="justify">
+Le chemin absolu indique les dossiers à empreinter depuis le dossier racine pour atteindre le dossier ou fichier cible. L'image ci-après illustre une arborescence de dossiers. Le chemin absolu vers le dossier musiques est dessiné en vert. Ce chemin s'écrit de la manière suivante sous Mac OS et Linux : 
+</p>
+
+```
+/Users/MonPrenom/musiques
+```
+
+<p align="justify">
+Sur Windows, les chemins absolus s'écrivent légèrement différemment. Les fichiers ne sont pas séparés par des slashs mais par des antislashs (\). De plus, le dossier racine est la lettre de l'un de vos disques tel que "C:\".
+</p>
+
+```
+C:\Users\MonPrenom\musiques
+```
+
+<p align="center"><img src="images/chemin_absolu.png" alt="Exemple de prompt de terminal" width="400"/></p>
+
 ## Chemin relatif
 
+<p align="justify"> 
+Le chemin relatif indique les dossiers à empreinte depuis le dossier courant – le dossier dans lequel vous vous trouvez – pour atteindre le dossier ou le fichier cible. Autrement dit, ce chemin est relatif au dossier courant. La figure ci-après illustre le chemin relatif faisant référence au dossier musiques lorsque vous vous trouvez dans le dossier Users. Le chemin s'écrit de la manière suivante : 
+</p>
+
+```
+Users/MonPrenom/musiques
+```
+
+<p align="center"><img src="images/chemin_relatif.png" alt="Exemple de prompt de terminal" width="400"/></p>
+
+
+## Les dossiers courants et parents
+
+<p align="justify"> 
+Quelque soit le système d'application. TOUS les dossiers contient chacun à minima deux dossiers :
+</p>
+
+
+- **Le dossier courant :** il s'écrit **"."**. Le chemin relatif "./test" est un exemple de chemin relatif utilisant ce dossier.
+- **Le dossier parent :** il s'écrit **".."**. Le chemin relatif "../test" est un exemple de chemin relatif utilisant ce dossier.
+
+
+
+<p align="justify"> 
+Autrement dit, le dossier courant est un dossier qui fait référence au dossier dans lequel vous vous trouvez tandis que le dossier parent est un dossier qui fait référence au dossier précédent le dossier dans lequel vous êtes. Ne vous inquiétez pas, le dossier courant peut paraître inutile. Vous découvrirez son utilité lorsque vous commencerez à bien maîtriser les programmes de vos systèmes d'exploitation. En attendant, ne cherchez pas à comprendre son utilité. Sachez simplement qu'il existe.
+</p>
+
+
+
+<p align="justify"> 
+Dans la figure ci-dessous, un chemin impossible à décrire sans utiliser le dossier parent ".." est illustré en vert. 
+</p>
+
+
+
+<p align="center"><img src="images/chemin_relatif_arriere.png" alt="Exemple de prompt de terminal" width="400"/></p>
+
+
+
+<p align="justify"> 
+Ce chemin démarre du dossier "MonPrenom" et atteind le dossier "dossierD". Pour atteindre ce dernier, il est d'abord nécessaire de se déplacer du dossier "MonPrenom" au dossier "Users" en utilisant la référence du dossier parent, "..". De la même manière, nous pouvons passer du dossier "Users" au dossier racine "/" ou "C://". Puis, comme nous l'avions déjà fait avec les chemins relatifs, il suffit de passer par dossierA et enfin nous pouvons atteindre dossierD. Voici le chemin relatif final que nous obtenons en suivant ces étapes : 
+</p>
+
+
+```
+../../dossierA/dossierD
+```
+
+
+## Le chemin d'un fichier
+
+<p align="justify"> 
+Jusqu'à maintenant, les chemins que nous avons écrits ne ciblaient que des dossiers. Les chemins peuvent aussi cibler des fichiers. Imaginons que le dossier "MonPrenom" contienne un fichier texte nommé "monTexte.txt". Nous pouvons y faire référence avec un chemin absolu de la manière suivante : 
+</p>
+
+
+
+```
+Linux et Mac OS : /Users/MonPrenom/monTexte.txt
+
+Windows : C:\\Users\MonPrenom\monTexte.txt
+```
+
+
+<p align="justify"> 
+Vous constatez donc que le principe est le même. Nous écrivons les noms des dossiers à empreinter que nous séparons par des "/" ou des "\" et enfin nous écrivons le nom du fichier cible.
+</p>
+
+
+<p align="justify"> 
+La figure ci-dessous illustre ce chemin en vert : 
+</p>
+
+
+<p align="center"><img src="images/chemin_relatif_fichier.png" alt="Exemple de chemin absolu ciblant un fichier." width="400"/></p>
+
+
+<p align="justify"> 
+En utilisant le même principe, il est possible aussi de faire référence à des fichiers avec un chemin relatif. Exemple, vous vous trouvez dans le dossier "Users" et souhaitez accéder au fichier "monFichier.txt" en utilisant le chemin suivant : 
+</p>
+
+```
+monPrenom/monFichier.txt
+```
 
 
 
