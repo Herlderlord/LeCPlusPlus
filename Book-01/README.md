@@ -1,45 +1,55 @@
 # Sommaire 
 - [Sommaire](#sommaire)
 - [Vous déplacer dans l'arborescence de vos fichiers](#vous-déplacer-dans-larborescence-de-vos-fichiers)
-  - [Qu'est-ce qu'un chemin ?](#quest-ce-quun-chemin-)
-  - [Chemin relatif et chemin absolu](#chemin-relatif-et-chemin-absolu)
-  - [Qu'est-ce qu'un terminal ?](#quest-ce-quun-terminal-)
-  - [Vous déplacer dans un terminal](#vous-déplacer-dans-un-terminal)
+- [Qu'est-ce qu'un chemin ?](#quest-ce-quun-chemin-)
+  - [Chemin absolu](#chemin-absolu)
+  - [Chemin relatif](#chemin-relatif)
+- [Qu'est-ce qu'un terminal ?](#quest-ce-quun-terminal-)
+- [Vous déplacer dans un terminal](#vous-déplacer-dans-un-terminal)
 
 
 
 # Vous déplacer dans l'arborescence de vos fichiers
+
+<p align="justify"> 
 Pour compiler un fichier, il vous est nécessaire d'indiquer son chemin. Dans votre ordinateur, les fichiers sont organisés en arborescence. Un dossier peut contenir d'autres dossiers et des fichiers. Comme illustré ci-dessous, l'organisation des dossiers peut être vu comme un arbre. Sur Linux et Mac OS, le dossier dit "racine", est le premier dossier, contenu par aucun autre dossier et se nomme "/". Pour Windows, il existe un dossier racine par disque monté et sont nommés avec la lettre associée au disque. Par exemple, "C://", "D://", "E://" etc. 
+</p>
 
 
 <p align="center"><img src="images/arborescence.png" alt="Exemple d'arborescence de fichiers" width="400"/></p>
 
 
-Si vous avez utilisé un ordinateur sur Windows, vous vous êtes certainement déjà servi de ce que nous (les informaticiens) nommons un explorateur de fichiers. Ce programme, présent nativement sur Windows, vous permet de naviguer dans l'arborescence de vos fichiers. 
+<p align="justify"> 
+Si vous avez utilisé un ordinateur sur Windows, vous vous êtes certainement déjà servi de ce que nous (les informaticiens) nommons un explorateur de fichiers. Le même type de logiciel est présent sur mac et dans la plus part des distributions linux modernes. Ce programme, présent nativement sur Windows, vous permet de naviguer dans l'arborescence de vos fichiers.
+</p> 
 
 
 
-Dans cette section, nous vous présenterons tous les concepts  nous présentons ce qu'est une arborescence, un chemin, nous présenterons la différence entre un chemin relatif et un chemin absolu et nous vous apprendrons à vous déplacer sur votre machine via le terminal, qu'elle soit sur Windows, Mac ou Linux.
-
-Dans cette section, nous allons vous apprendre à vous déplacer dans l'arborescence de vos fichiers. 
-
-
+<p align="justify">
+Pour apprendre à vous déplacer dans les dossiers de votre ordinateur, nous aborderons dans cette sections les concepts d'arborescence et de chemin. De plus, nous introduirons aussi le terminal – ou invité de commande – pour vous apprendre à vous déplacer dans votre ordinateur grâce à des commandes. Ces connaissances et compétences vont seront d'une grande aide pour compiler vos projets de programmation mais également pour réaliser une très grand nombre, si ce n'est toutes, de tâches informatiques.
+</p>
 
 
 
-## Qu'est-ce qu'un chemin ?
-Le chemin d'un fichier indique son positionnement dans la machine (ordinateur, serveur) que vous utilisez. Grâce au chemin d'un fichier, vous pouvez indiquer comment y accéder pour le lire, le modifier ou l'exécuter.
 
-## Chemin relatif et chemin absolu
+# Qu'est-ce qu'un chemin ?
+Le chemin d'un fichier indique son positionnement dans la machine (ordinateur, serveur) que vous utilisez. Grâce au chemin d'un fichier, vous pouvez indiquer comment y accéder pour le lire, le modifier ou l'exécuter. 
 
 
-## Qu'est-ce qu'un terminal ?
+## Chemin absolu
+
+## Chemin relatif
+
+
+
+
+# Qu'est-ce qu'un terminal ?
 
 <p align="center"><img src="images/exemple_prompt_terminal.png" alt="Exemple de prompt de terminal" width="400"/></p>
 
 
 
-## Vous déplacer dans un terminal
+# Vous déplacer dans un terminal
 
 Sur Mac OS et sur Linux : 
 ```
