@@ -7,6 +7,10 @@
   - [Les dossiers courants et parents](#les-dossiers-courants-et-parents)
   - [Le chemin d'un fichier](#le-chemin-dun-fichier)
 - [Qu'est-ce qu'un terminal ?](#quest-ce-quun-terminal-)
+- [Entrez votre première commande dans un terminal](#entrez-votre-première-commande-dans-un-terminal)
+  - [Windows](#windows)
+  - [Linux](#linux)
+  - [Mac OS](#mac-os)
 - [Vous déplacer dans un terminal](#vous-déplacer-dans-un-terminal)
 
 
@@ -180,15 +184,49 @@ Ci-dessous vous trouverez un exemple de terminal. Généralement, le terminal vo
 Le terminal ne peut afficher que du texte. Il ne peut pas dessiner pixel par pixel. Pour séparer différentes informations, le terminal utilise ce que nous nommons des séparateurs. Ces caractères servent à séparer deux informations. Dans l'exemple de l'illustration précédente, l'utilisateur est séparé du nom de la machine par un caractère "@". Le nom de la machine est séparé du chemin du dossier courant par le caractère ":". Enfin, le chemin du dossier courant est séparé de la commande que l'utilisateur, vous, entre par un caractère "$".
 </p>
 
+
+# Entrez votre première commande dans un terminal
+Dans cette section, nous allons voir comment ouvrir un terminal et y lancer des commandes. Nous verrons ces étapes pour les différents OS que vous pouvez utiliser à savoir Windows, Linux et Mac OS.
+
+
+## Windows
+Pour ouvrir un terminal surwindows, suivez les étapes suivantes : 
+- Appuyez sur le bouton Windows pour ouvrir la barre de recherche
+- Recherchez terminal
+- Appuyez sur entrer ou cliquez sur l'icone du terminal
+
+Vous pouvez aussi appuyer sur windows+R et entrer le texte "cmd" dans la fenêtre qui s'affiche. Le terminal se lancera ensuite.
+
+Une fois le terminal ouvert, je vous invite à rentrer en réalisant un copier coller les commandes suivantes. Elles seront des premiers exemples de ce que vous pouvez faire avec un terminal.
+
+A noter : les commandes sont parfois un peu différentes sur windows et sur linux. Elles sont généralement les mêmes sur Linux et Mac OS. Dans la suite, des précisions vous seront données sur les commandes et les OS que vous pouvez utiliser.
+
+## Linux 
+Chercher le terminal dans votre barre de recherche et dans la liste de vos programmes et lancez-le. En général, vous pouvez aussi lancer un nouveau terminal avec le raccourci clavier ctrl+alt+T. 
+
+Une fois le terminal ouvert, je vous invite à rentrer en réalisant un copier coller les commandes suivantes. Elles seront des premiers exemples de ce que vous pouvez faire avec un terminal.
+
+A noter : les commandes sont parfois un peu différentes sur windows et sur linux. Elles sont généralement les mêmes sur Linux et Mac OS. Dans la suite, des précisions vous seront données sur les commandes et les OS que vous pouvez utiliser.
+
+## Mac OS
+Utilisez le raccourci ⌘+espace pour ouvrir spotlight. Une fois ouvert, cherchez puis lancez le "terminal". 
+
+Une fois le terminal ouvert, je vous invite à rentrer en réalisant un copier coller les commandes suivantes. Elles seront des premiers exemples de ce que vous pouvez faire avec un terminal.
+
+A noter : les commandes sont parfois un peu différentes sur windows et sur linux. Elles sont généralement les mêmes sur Linux et Mac OS. Dans la suite, des précisions vous seront données sur les commandes et les OS que vous pouvez utiliser.
+
+
 # Vous déplacer dans un terminal
 
-Sur Mac OS et sur Linux : 
+Comme nous l'avons vu plus tôt, le terminal vous indique dans quel dossier vous vous trouvez. Nous allons voir ci-après comment vous déplacer depuis votre terminal. Apprendre cela vous sera très utile pour compiler et exécuter des programmes en C++.
+
+Sur Mac OS et sur Linux, vous pouvez utiliser la commande suivante pour vous déplacer dans un dossier enfant ou dans le dossier parent : 
 ```
-cd [chemin du dossier]
+cd [chemin du dossier cible]
 ```
 
 
-Pour éviter d'avoir à écrire "change directory" à chaque commande, les développeurs ont préféré opter pour le diminutif "cd". 
+Pour éviter d'avoir à écrire "change directory" à chaque commande, les développeurs de la commande ont préféré opter pour le diminutif "cd". 
 
 Nous nommons "dossier courant" le dossier dans lequel vous vous trouvez dans un terminal ou dans l'explorateur de fichier. Pour vous aider à y voir plus clair, vous pouvez afficher les fichiers et dossiers présents dans votre dossier courant grâce à la commande suivante sur Linux et Mac OS : 
 ``` 
