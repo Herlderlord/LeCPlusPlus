@@ -154,9 +154,31 @@ monPrenom/monFichier.txt
 
 # Qu'est-ce qu'un terminal ?
 
+<p align="justify"> 
+Si vous êtes un ou une néophyte, vous avez déjà certainement utilisé un explorateur de fichier, notamment sur Windows, pour vous déplacer dans les dossiers de votre machine. Ci-dessous, vous trouverez une illustration d'un explorateur de fichiers que j'ai trouvé sur internet. Les éléments d'interface y sont décrits et nous ne reviendrons pas dessus dans ce document. Sachez juste que dans cette capture d'écran, l'utilisateur se trouve dans un dossier courant et l'explorateur de fichiers lui permet de se déplacer dans un dossier enfant ou de revenir au dossier parent (l'action "précédent").
+</p>
+
+<p align="center"><img src="https://www.coursinfo.fr/wp-content/uploads/2017/10/fenetre-explorateur-fichiers.png" alt="Exemple de prompt de terminal" width="400"/></p>
+
+
+<p align="justify">
+Lorsque nous travaillons sur un ordinateur, ou que nous programmons, nous n'utilisons pas nécessairement l'explorateur de fichiers pour nous déplacer de dossiers en dossiers. Le <strong>terminal</strong> permet aussi de réaliser cette tâche. 
+</p>
+
+
+<p align="justify">
+Le terminal est un petit logiciel qui ne fonctionne qu'avec du texte. Il vous permet d'entrer des commandes qui seront exécutés, comme des programmes, et qui réaliseront les tâches que vous demanderez : vous déplacer dans un dossier, supprimer ou créer un dossier/fichier, afficher le nombre de lignes d'un fichier texte, transformer un fichier mp3 en wav etc. Un terminal a généralement son propre langage de programmation que nous nommons interpréteur de commande. Grâce à cela, il est possible de réaliser des tâches complexes telles que trier tous vos fichiers .mp3 et .wav et les déplacer dans deux dossiers distincts pour les séparer sans que vous n'ayez aucun glisser/déposer ou copier/coller à réaliser vous-même. Tout sera automatisé en quelques lignes de code. Nous détaillerons plus tard le concept d'<strong>interpréteur</strong>. 
+</p>
+
+<p align="justify">
+Ci-dessous vous trouverez un exemple de terminal. Généralement, le terminal vous indique le chemin du dossier courant, le dossier dans lequel vous vous trouvez à l'instant présent. Vous avez aussi d'autres informations qui sont affichées telles que votre nom d'utilisateur sur la machine voire le nom de la machine.
+</p>
+
 <p align="center"><img src="images/exemple_prompt_terminal.png" alt="Exemple de prompt de terminal" width="400"/></p>
 
-
+<p align="justify">
+Le terminal ne peut afficher que du texte. Il ne peut pas dessiner pixel par pixel. Pour séparer différentes informations, le terminal utilise ce que nous nommons des séparateurs. Ces caractères servent à séparer deux informations. Dans l'exemple de l'illustration précédente, l'utilisateur est séparé du nom de la machine par un caractère "@". Le nom de la machine est séparé du chemin du dossier courant par le caractère ":". Enfin, le chemin du dossier courant est séparé de la commande que l'utilisateur, vous, entre par un caractère "$".
+</p>
 
 # Vous déplacer dans un terminal
 
