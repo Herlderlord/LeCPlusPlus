@@ -26,6 +26,7 @@ Analysons ce code ligne par ligne :
 
 Note : si vous n'écrivez pas la ligne `using namespace std;` vous devrez ajouter le préfix `std::` à `cout` et à `endl`. La phrase sera donc `std::cout << "Hello world!" << std::endl;`. 
 
+Note 2 : l'instruction `return 0;` n'est pas obligatoire. Je vous suggère tout de même de prendre la bonne habitude de l'ajouter à la fin de votre fonction. 
 
 
 # Les instructions
@@ -39,6 +40,10 @@ Un exemple : définitir et initialiser une variable entière nommée *a*
 
 Un second exemple : afficher le texte "Hello World!"  
 ```cout << "Hello World!" << endl;```
+
+# Des exercices
+
+Vous trouverez dans le fichier [exercices.md](exercices.md) des exercices pour mettre en pratique ce que vous avez appris dans ce *book*. Une solution est donnée à chaque exercice. Si vous bloquez, n'hésitez pas à ouvrir une *issue* sur github pour que d'autres personnes puissent vous aider.
 
 
 # Mots à retenir 
