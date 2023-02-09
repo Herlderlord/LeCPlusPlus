@@ -35,21 +35,23 @@ Pour chaque exercice, vous trouverez des solutions qui ne sont pas affichées pa
 
 
 
-
-
 <details>
-    <summary>Exercice 1</summary>
-    
-    Les instructions basiques en c sont séparées par des point-virgules. You can have `details`.
-</details>
+  <summary>Exercice 2</summary>
+  
+
+  Oui, le code fonctionne. La ligne `using namespace std;` a été supprimée mais le préfix `std::` a été ajouté à tous les mots clefs `cout` et `endl`. 
+
+  Par exemple, la ligne : 
+  ```c++
+  cout << "Hello World! " << endl;
+  ```
+
+  a été remplacée par la ligne suivante : 
+  ```c++
+  std::cout << "Hello World! " << std::endl;
+  ```
 
 
-
-
-
-<details>
-    <summary> Exercice 2 </summary>
-    La solution de l'exercice 1.
 </details>
 
 
