@@ -1,3 +1,5 @@
+# Les solutions
+Vous trouverez toutes les solutions dans le fichier [solutions.md](solutions.md).
 
 # Exercice 1
 

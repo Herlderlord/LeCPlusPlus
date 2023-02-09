@@ -1,9 +1,10 @@
 
+# Note introductive
 Pour chaque exercice, vous trouverez des solutions qui ne sont pas affichées par défaut et que vous pouvez décider d'afficher individuellement. 
 
 
 
-
+# Solutions
 <details>
   <summary>Exercice 1</summary>
   
