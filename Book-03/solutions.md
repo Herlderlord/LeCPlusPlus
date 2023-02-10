@@ -59,6 +59,25 @@ Pour chaque exercice, vous trouverez des solutions qui ne sont pas affichées pa
 
 
 <details>
-    <summary> Exercice 3 </summary>
-    La solution de l'exercice 1.
+  <summary>Exercice 3</summary>
+
+
+
+  Une erreur est présente dans le code fourni par l'exercice trois. Un point virgule manque à la fin de la ligne `std::cout << "Hello World! " << std::endl`. Si vous essayez de compiler le programme, le compilateur va vous afficher la phrase suivante : 
+
+  ```
+  [NOM DE VOTRE FICHIER CPP]:4:46: error: expected ';' after expression
+  std::cout << "Hello World! " << std::endl
+  ```
+
+  Prenons le temps de décortiquer l'erreur. Tout d'abord, le compilateur vous indique où votre erreur se trouve : `[NOM DE VOTRE FICHIER CPP]:4:46:`. Ici, le compilateur vous signifie que l'erreur se trouve dans le fichier `[NOM DE VOTRE FICHIER CPP]` à la ligne 4, et au caractère 46 de cette même ligne.
+
+  Ensuite, le compilateur vous informe qu'il a trouvé une erreur et qu'il attendait un caractère ';', `error: expected ';' after expression`. 
+
+  Finalement, il vous affiche la ligne où il a trouvé l'erreur pour éventuellement vous faire gagner du temps. 
+    `std::cout << "Hello World! " << std::endl`. 
+
+  Vous l'aurez donc compris, il manque bel et bien un point virgule à la fin de cette ligne. Je vous invite à l'ajouter et à compiler à nouveau. Aussi, n'hésitez pas à créer vous-même des erreurs dans le code et à compiler. Vous vous familiariserez aux différentes erreurs que vous pouvez rencontrer. (par exemple, enlevez des chevrons "<<" ou des "std").
+
+
 </details>
